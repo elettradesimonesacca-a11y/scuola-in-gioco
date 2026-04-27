@@ -126,7 +126,7 @@ function _chiamaAPI() {
               "Content-Type": "application/json"
             },
             body: JSON.stringify({
-              model: "claude-sonnet-4-20250514",
+              model: "claude-sonnet-4-5",
               max_tokens: maxTokens,
               messages: [{
                 role: "user",
@@ -910,8 +910,8 @@ function _generaEventi() {
               "Content-Type": "application/json"
             },
             body: JSON.stringify({
-              model: "claude-sonnet-4-20250514",
-              max_tokens: 800,
+              model: "claude-sonnet-4-5",
+              max_tokens: 1024,
               messages: [{
                 role: "user",
                 content: prompt
@@ -1557,8 +1557,8 @@ function _generaEsercizi() {
               "Content-Type": "application/json"
             },
             body: JSON.stringify({
-              model: "claude-sonnet-4-20250514",
-              max_tokens: 3000,
+              model: "claude-sonnet-4-5",
+              max_tokens: 1024,
               messages: [{
                 role: "user",
                 content: prompt
@@ -2915,8 +2915,8 @@ function _generaDomandeTabellone() {
               "Content-Type": "application/json"
             },
             body: JSON.stringify({
-              model: "claude-sonnet-4-20250514",
-              max_tokens: 3000,
+              model: "claude-sonnet-4-5",
+              max_tokens: 1024,
               messages: [{
                 role: "user",
                 content: prompt
