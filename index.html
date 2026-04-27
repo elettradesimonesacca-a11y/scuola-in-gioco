@@ -1,0 +1,4222 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scuola in Gioco – Storia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body,#root{height:100%}
+  body{font-family:"Bricolage Grotesque",system-ui,sans-serif;background:#F0E6CC}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script>
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regenerator() { /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */ var e, t, r = "function" == typeof Symbol ? Symbol : {}, n = r.iterator || "@@iterator", o = r.toStringTag || "@@toStringTag"; function i(r, n, o, i) { var c = n && n.prototype instanceof Generator ? n : Generator, u = Object.create(c.prototype); return _regeneratorDefine2(u, "_invoke", function (r, n, o) { var i, c, u, f = 0, p = o || [], y = !1, G = { p: 0, n: 0, v: e, a: d, f: d.bind(e, 4), d: function d(t, r) { return i = t, c = 0, u = e, G.n = r, a; } }; function d(r, n) { for (c = r, u = n, t = 0; !y && f && !o && t < p.length; t++) { var o, i = p[t], d = G.p, l = i[2]; r > 3 ? (o = l === n) && (u = i[(c = i[4]) ? 5 : (c = 3, 3)], i[4] = i[5] = e) : i[0] <= d && ((o = r < 2 && d < i[1]) ? (c = 0, G.v = n, G.n = i[1]) : d < l && (o = r < 3 || i[0] > n || n > l) && (i[4] = r, i[5] = n, G.n = l, c = 0)); } if (o || r > 1) return a; throw y = !0, n; } return function (o, p, l) { if (f > 1) throw TypeError("Generator is already running"); for (y && 1 === p && d(p, l), c = p, u = l; (t = c < 2 ? e : u) || !y;) { i || (c ? c < 3 ? (c > 1 && (G.n = -1), d(c, u)) : G.n = u : G.v = u); try { if (f = 2, i) { if (c || (o = "next"), t = i[o]) { if (!(t = t.call(i, u))) throw TypeError("iterator result is not an object"); if (!t.done) return t; u = t.value, c < 2 && (c = 0); } else 1 === c && (t = i.return) && t.call(i), c < 2 && (u = TypeError("The iterator does not provide a '" + o + "' method"), c = 1); i = e; } else if ((t = (y = G.n < 0) ? u : r.call(n, G)) !== a) break; } catch (t) { i = e, c = 1, u = t; } finally { f = 1; } } return { value: t, done: y }; }; }(r, o, i), !0), u; } var a = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} t = Object.getPrototypeOf; var c = [][n] ? t(t([][n]())) : (_regeneratorDefine2(t = {}, n, function () { return this; }), t), u = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(c); function f(e) { return Object.setPrototypeOf ? Object.setPrototypeOf(e, GeneratorFunctionPrototype) : (e.__proto__ = GeneratorFunctionPrototype, _regeneratorDefine2(e, o, "GeneratorFunction")), e.prototype = Object.create(u), e; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, _regeneratorDefine2(u, "constructor", GeneratorFunctionPrototype), _regeneratorDefine2(GeneratorFunctionPrototype, "constructor", GeneratorFunction), GeneratorFunction.displayName = "GeneratorFunction", _regeneratorDefine2(GeneratorFunctionPrototype, o, "GeneratorFunction"), _regeneratorDefine2(u), _regeneratorDefine2(u, o, "Generator"), _regeneratorDefine2(u, n, function () { return this; }), _regeneratorDefine2(u, "toString", function () { return "[object Generator]"; }), (_regenerator = function _regenerator() { return { w: i, m: f }; })(); }
+function _regeneratorDefine2(e, r, n, t) { var i = Object.defineProperty; try { i({}, "", {}); } catch (e) { i = 0; } _regeneratorDefine2 = function _regeneratorDefine(e, r, n, t) { function o(r, n) { _regeneratorDefine2(e, r, function (e) { return this._invoke(r, n, e); }); } r ? i ? i(e, r, { value: n, enumerable: !t, configurable: !t, writable: !t }) : e[r] = n : (o("next", 0), o("throw", 1), o("return", 2)); }, _regeneratorDefine2(e, r, n, t); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _toConsumableArray(r) { return _arrayWithoutHoles(r) || _iterableToArray(r) || _unsupportedIterableToArray(r) || _nonIterableSpread(); }
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _iterableToArray(r) { if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r); }
+function _arrayWithoutHoles(r) { if (Array.isArray(r)) return _arrayLikeToArray(r); }
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+var _React = React,
+  useState = _React.useState,
+  useEffect = _React.useEffect;
+var FENICI_TEXT = "IL MAR MEDITERRANEO\nIl Mar Mediterraneo \xE8 un mare quasi completamente chiuso che bagna tre continenti. A nord, infatti, si trova l'Europa, a sud-est l'Asia e a sud l'Africa. Per questo motivo il nome Mediterraneo significa \"in mezzo alle terre\".\nI popoli che vivevano lungo le sue coste impararono ben presto a sfruttare le risorse offerte da questo mare, facilmente navigabile, ricco di porti naturali e pescoso.\nIl Mar Mediterraneo, inoltre, forniva anche il sale. Questo prodotto era importantissimo perch\xE9 permetteva di conservare i cibi in un periodo in cui non c'era altro modo per farlo.\nIl clima mite delle terre affacciate sul Mar Mediterraneo favoriva l'agricoltura e le coltivazioni di olivo e di vite, i cui prodotti erano molto ricercati nel mondo antico.\nGrazie a tutte queste caratteristiche, Fenici, Cretesi e Micenei si stabilirono lungo le coste e nelle isole del Mar Mediterraneo e iniziarono a esplorarlo e a commerciare via mare con popoli vicini e lontani.\nI FENICI\nDOVE: I Fenici si stabilirono lungo le coste orientali del Mediterraneo, nella sottile striscia di terra fertile tra il mare e una catena di monti ricoperta da foreste di cedro. Il cedro \xE8 un albero ricco di resina naturale, una caratteristica che lo rende resistente all'acqua salata e, quindi, molto adatto alla costruzione di navi.\nQUANDO: La civilt\xE0 dei Fenici inizi\xF2 a svilupparsi nel 2000 a.C. circa. Pur non avendo informazioni certe sulla loro provenienza, sembra che fossero originari della Mesopotamia. Intorno al 1200 a.C. i Fenici fondarono nuove citt\xE0 in Africa e in Europa ed erano un grande popolo commerciale con tutti i popoli che si affacciavano sul Mediterraneo. Verso il 700 a.C. furono conquistati dagli Assiri, poi dai Babilonesi e, infine, nel 64 a.C. vennero parte dell'Impero di Roma.\nATTIVIT\xC0 ECONOMICHE: I Fenici praticarono poco l'agricoltura, coltivando soprattutto cereali, ulivi, datteri e fichi. L'abbondanza di alberi di cedro, la vicinanza al mare e le coste ricche di approdi e porti naturali li portarono a dedicarsi soprattutto alla costruzione di imbarcazioni e al commercio via mare. I Fenici erano esperti artigiani. Utilizzavano varie materie prime (argento, rame, avorio, ambra), acquistate da altri Paesi per realizzare oggetti di lusso che rivendevano ad altri popoli. Il loro prodotto pi\xF9 famoso era la porpora, un colorante naturale ricavato da un mollusco, il murice, che veniva utilizzato per tingere di rosso i tessuti. Erano molto abili anche nella lavorazione del vetro con la tecnica della soffiatura. Inventarono le saline per ricavare il sale.\nORGANIZZAZIONE: I Fenici erano organizzati in citt\xE0-stato. Ogni citt\xE0 era governata da un re aiutato dai sacerdoti e da un'assemblea di anziani composta da ricchi mercanti. Le citt\xE0-stato pi\xF9 famose furono Sidone, Biblo e Tiro.\nLE COLONIE: I luoghi di scalo detti empori divennero colonie. La pi\xF9 famosa \xE8 Cartagine in Tunisia. Altre colonie: Cadice e Malaga in Spagna, Cagliari e Tharros in Sardegna, Palermo e Mozia in Sicilia.\nRELIGIONE: El era il dio dell'universo. Sua moglie Balaat era la dea della maternit\xE0. Baal era il dio della pioggia, figlio di Balaat. Astarte era la dea della fertilit\xE0 della terra. Melqart era il dio del mare e del commercio. I luoghi sacri si chiamavano tofet.\nNAVI: Inventarono l'ancora, la chiglia, la vela quadrata, il ponte della nave e il timone. Le navi militari avevano il rostro. Si orientavano con la Stella Polare, detta anche Stella Fenicia.\nSCRITTURA: Idearono la scrittura fonetica con un alfabeto di 22 consonanti. Dall'alfabeto fenicio deriva l'alfabeto che usiamo ancora oggi.\nMONETA: Prima usarono il baratto, poi la moneta inventata dagli abitanti di Lidia.";
+var CINA_TEXT = "LA CIVILT\xC0 CINESE\nDOVE: In Asia la zona pianeggiante fra il Fiume Giallo e il Fiume Azzurro era abitata fin dal Neolitico grazie ai terreni molto fertili perch\xE9, durante le piene, vi si depositava il limo, un fango di colore giallastro, di cui il Fiume Giallo era ricco. Con il tempo, la civilt\xE0 cinese si espanse occupando un territorio vastissimo dell'Asia.\nQUANDO: La civilt\xE0 cinese inizi\xF2 a svilupparsi intorno al 3500 a.C., quando i Cinesi si organizzarono in villaggi, formando delle comunit\xE0 dette clan. Nel 1800 a.C. i clan si unirono dando origine a regni. Nel 221 a.C. il re della dinastia Qin, che si pronuncia \"cin\" e da cui deriva il nome \"Cina\", un\xEC i regni formando un unico impero che dur\xF2 addirittura fino al 1912 d.C.\nORGANIZZAZIONE: In origine i Cinesi erano organizzati in clan che, in seguito, diedero origine a regni. Ogni regno era governato da un re e, alla sua morte, l'intero regno veniva ereditato dal figlio. Questo periodo venne detto periodo delle dinastie perch\xE9 il regno si tramandava all'interno di una sola famiglia. Quando i regni si unirono venne formato l'impero cinese, che aveva un unico sovrano. Il sovrano viveva nella capitale con la corte e i sacerdoti. Era il capo politico e religioso, era protetto da un proprio esercito e alla sua morte veniva sepolto in una tomba regale, piena di oggetti preziosi. Ogni regno era amministrato dai mandarini, funzionari scelti tra le famiglie nobili di proprietari terrieri. La maggioranza della popolazione era formata da mercanti, artigiani e agricoltori.\nCULTURA E ARTE - La scrittura: Inizialmente i Cinesi usarono i pittogrammi, cio\xE8 dei disegni stilizzati che rappresentavano oggetti. I primi testi cinesi erano divinatori, usati cio\xE8 per predire il futuro. Un po' alla volta iniziarono a usare gli ideogrammi, segni che rappresentavano un oggetto, un'idea o un'azione. Ancora oggi alcuni ideogrammi antichi sono usati in Cina.\nCONOSCENZE, INVENZIONI E SCOPERTE: I Cinesi furono grandi inventori e molte delle loro invenzioni hanno portato grandi cambiamenti nella storia dell'umanit\xE0. Nel 239 a.C. circa inventarono la bussola, che inizialmente fu usata come un gioco ma che, in seguito, divenne uno strumento indispensabile per orientarsi. I Cinesi svilupparono tecniche di produzione di leghe come il bronzo, ottenuto fondendo rame e stagno. In medicina inventarono l'agopuntura, una tecnica per sbloccare l'energia vitale utilizzando degli aghi sottilissimi. I Cinesi erano anche molto esperti di astronomia, registravano le eclissi lunari e solari e realizzarono i primi globi celesti, usati per mostrare le posizioni delle stelle.\nRELIGIONE: I Cinesi erano politeisti. La loro religione era legata alle forze della natura e al culto degli antenati. Credevano che gli spiriti degli antenati proteggessero le loro famiglie. Tra il 570 e il 470 a.C. due grandi pensatori, Lao Tse e Confucio, fondarono il taoismo e il confucianesimo. Queste due religioni erano basate sulla meditazione, sulla tolleranza e sull'armonia tra l'essere umano e la natura.\nATTIVIT\xC0 ECONOMICHE: I Cinesi si dedicavano principalmente all'agricoltura, producendo riso, orzo, miglio e soia. Molto praticato era l'allevamento di maiali, pecore, capre e bachi da seta da cui ricavavano un filato molto prezioso usato per realizzare i tessuti di seta. Si dedicavano all'artigianato, realizzando oggetti in bronzo e in ceramica. Il commercio con i popoli lontani si svilupp\xF2 intorno al 1000 a.C. e si svolgeva lungo una strada carovaniera chiamata la Via della Seta, perch\xE9 questo era il prodotto pi\xF9 richiesto.";
+var MAYA_TEXT = "I MAYA\nDOVE: La civilt\xE0 dei Maya si svilupp\xF2 nella penisola dello Yucatan, un territorio ricco di pozzi naturali di acqua dolce e con piogge abbondanti. Con il passare del tempo i Maya ampliarono il loro territorio fino a comprendere una vasta zona dell'America Centrale.\nQUANDO: Le prime trib\xF9 nomadi arrivarono nello Yucatan intorno al 2000 a.C. Nel 1100 a.C. i Maya erano organizzati in citt\xE0-stato indipendenti, ognuna delle quali era governata da un re, considerato una divinit\xE0. Le diverse citt\xE0-stato avevano in comune la lingua, la religione e la cultura.\nATTIVIT\xC0 ECONOMICHE: I Maya si dedicavano soprattutto all'agricoltura: producevano mais, pomodori, cacao, peperoncino e patate. Erano anche abili commercianti. Con le popolazioni vicine scambiavano sale, pietre preziose, piume colorate, mobili e schiavi.\nCULTURA E ARTE - Le conoscenze: I Maya erano eccellenti matematici: padroneggiavano l'aritmetica, usavano il sistema decimale e avevano scoperto lo zero. Erano anche abili architetti e realizzarono piramidi a gradoni, dalla base quadrangolare, che avevano un santuario sulla sommit\xE0. Utilizzavano la scrittura a segni, chiamati glifi. I glifi potevano rappresentare sia un oggetto sia la lettera iniziale dell'oggetto stesso. Realizzarono centinaia di libri, chiamati Codici. Purtroppo, dopo il 1562 d.C., molti vennero distrutti e ne sono rimasti soltanto tre, che sono indispensabili per ricostruire la loro civilt\xE0.\nLE INVENZIONI: I Maya non avevano gli strumenti tecnologici che abbiamo oggi, ma realizzarono un calendario solare molto preciso e calcolarono che un anno era formato da 365,242 giorni. Svilupparono anche un sistema di tessitura realizzando abiti in cotone, pelle e foglie di agave. Le loro creazioni erano spesso decorate con conchiglie e pezzetti di legno.\nRELIGIONE: I Maya erano politeisti e le loro divinit\xE0 rappresentavano le forze della natura. Per ottenere favori dalle divinit\xE0, i Maya praticavano molti riti, come il gioco della palla. Itzamna era il dio del cielo. Chac era il dio della pioggia. Kukulkan era il dio creatore. Yum Kaax era il dio del mais.";
+var VALLINDI_TEXT = "I VALLINDI\nDOVE: I Vallindi erano un popolo pacifico che si insedi\xF2 nella valle del fiume Indo, dove il terreno era particolarmente fertile. Lungo le sponde del fiume sorsero le grandi citt\xE0 di Harappa e di Mohenjo-Daro. In seguito altre citt\xE0 vennero edificate anche lungo la costa che si affaccia sul Mar Arabico.\nQUANDO: La civilt\xE0 dei Vallindi si svilupp\xF2 nel 2500 a.C. circa. Intorno al 1900 a.C. i territori su cui i Vallindi vivevano iniziarono a inaridirsi e uno dei fiumi su cui sorgevano alcune delle loro citt\xE0 scomparve. Nel 1800 a.C. circa le citt\xE0 furono abbandonate e gli abitanti si spostarono in altri territori. Intorno al 1500 a.C. gli Arii, un popolo nomade proveniente dall'Asia centrale, si insediarono in quest'area, occupandola fino al fiume Gange.\nATTIVIT\xC0 ECONOMICHE: I Vallindi praticavano l'agricoltura: coltivavano grano, riso, legumi e piante di cotone. Anche l'artigianato era molto sviluppato, realizzavano vasellame, tessuti in cotone e magnifici gioielli in pietre preziose. Contrassegnavano i loro prodotti con i sigilli in terracotta dove erano incisi dei simboli per indicare chi aveva realizzato l'oggetto. Commerciavano con popoli anche lontani, infatti alcuni sigilli e prodotti di questa civilt\xE0 sono stati ritrovati nella citt\xE0 di Ur, in Mesopotamia, e in Egitto.\nORGANIZZAZIONE - La societ\xE0: Gli storici hanno poche conoscenze sulla societ\xE0 dei Vallindi. Poich\xE9 non sono stati trovati resti di palazzi reali, si pensa che le decisioni fossero prese da assemblee di cittadini. Probabilmente il governo era affidato a un re-sacerdote. Le citt\xE0 pi\xF9 conosciute sono Harappa e Mohenjo-Daro, abitate da circa 50 mila abitanti. Nel 1954 furono scoperti i resti della citt\xE0 di Lothal, sulla costa che si affaccia sul Mar Arabico. Le citt\xE0 erano suddivise in una zona alta con edifici pubblici, magazzini e piscine rituali, e una zona bassa con abitazioni, laboratori e botteghe. Ogni citt\xE0 era dotata di una rete di distribuzione dell'acqua e di fognature sotterranee.\nRELIGIONE: I sacerdoti si occupavano dei riti rivolti alle numerose divinit\xE0, come la Dea Madre, considerata la madre di tutti gli esseri viventi.\nCULTURA E ARTE - La scrittura: I Vallindi usavano un tipo di scrittura chiamata pittografica perch\xE9 il segno riproduceva l'oggetto. Della loro scrittura si sa molto poco e le studiose e gli studiosi hanno fornito diverse interpretazioni sui 400 segni trovati fino a oggi sulle numerose incisioni dei sigilli. Le incisioni rinvenute non sono state ancora decifrate e rappresentano soprattutto figure di animali come unicorni, elefanti, tigri, bufali e uri.\nCONOSCENZE, INVENZIONI E SCOPERTE: I Vallindi erano abili matematici e utilizzavano un sistema di numerazione che si basava su unit\xE0, decine e centinaia. Realizzarono anche un sistema di pesi e di misure, considerato il primo della Storia. Erano ottimi ingegneri: oltre al sistema di distribuzione delle acque, realizzarono condotti di aerazione per proteggere le persone dalle alte temperature. I Vallindi riuscirono a ricavare una fibra tessile dalla pianta di cotone con cui realizzare tessuti.";
+var MATERIE = [{
+  id: "storia",
+  label: "Storia",
+  colore: "#C17A2A",
+  unita: [{
+    label: "Il Mar Mediterraneo",
+    capitoli: [{
+      id: "fenici",
+      label: "I Fenici",
+      testo: FENICI_TEXT
+    }]
+  }, {
+    label: "Le terre lontane",
+    capitoli: [{
+      id: "cina",
+      label: "La civiltà cinese",
+      testo: CINA_TEXT
+    }, {
+      id: "maya",
+      label: "I Maya",
+      testo: MAYA_TEXT
+    }, {
+      id: "vallindi",
+      label: "I Vallindi",
+      testo: VALLINDI_TEXT
+    }]
+  }]
+}];
+var FORMATI = [{
+  id: "vero_falso",
+  label: "Vero / Falso",
+  desc: "8 affermazioni da giudicare"
+}, {
+  id: "multipla",
+  label: "Risposta multipla",
+  desc: "6 domande con 4 opzioni"
+}, {
+  id: "abbinamenti",
+  label: "Abbinamenti",
+  desc: "6 coppie da collegare"
+}, {
+  id: "timeline",
+  label: "Linea del tempo",
+  desc: "4 eventi da collocare"
+}, {
+  id: "completamento",
+  label: "Completa le frasi",
+  desc: "6 frasi con parola mancante"
+}, {
+  id: "anagrammi",
+  label: "Anagrammi",
+  desc: "8 parole da ricomporre"
+}, {
+  id: "tabellone",
+  label: "Tabellone",
+  desc: "Rispondi e avanza sul tabellone"
+}];
+function chiamaAPI(_x) {
+  return _chiamaAPI.apply(this, arguments);
+}
+function _chiamaAPI() {
+  _chiamaAPI = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee2(prompt) {
+    var maxTokens,
+      tentativo,
+      res,
+      data,
+      raw,
+      s,
+      e,
+      _args2 = arguments;
+    return _regenerator().w(function (_context2) {
+      while (1) switch (_context2.n) {
+        case 0:
+          maxTokens = _args2.length > 1 && _args2[1] !== undefined ? _args2[1] : 2500;
+          tentativo = _args2.length > 2 && _args2[2] !== undefined ? _args2[2] : 0;
+          _context2.n = 1;
+          return fetch("/.netlify/functions/anthropic", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              model: "claude-sonnet-4-20250514",
+              max_tokens: maxTokens,
+              messages: [{
+                role: "user",
+                content: prompt
+              }]
+            })
+          });
+        case 1:
+          res = _context2.v;
+          if (!(res.status === 429 && tentativo < 3)) {
+            _context2.n = 3;
+            break;
+          }
+          _context2.n = 2;
+          return new Promise(function (r) {
+            return setTimeout(r, 3000 * (tentativo + 1));
+          });
+        case 2:
+          return _context2.a(2, chiamaAPI(prompt, maxTokens, tentativo + 1));
+        case 3:
+          if (res.ok) {
+            _context2.n = 4;
+            break;
+          }
+          throw new Error("Errore HTTP " + res.status);
+        case 4:
+          _context2.n = 5;
+          return res.json();
+        case 5:
+          data = _context2.v;
+          if (!data.error) {
+            _context2.n = 6;
+            break;
+          }
+          throw new Error(data.error.message);
+        case 6:
+          raw = data.content.map(function (i) {
+            return i.text || "";
+          }).join("").trim();
+          s = raw.indexOf("{");
+          e = raw.lastIndexOf("}");
+          if (!(s === -1 || e === -1)) {
+            _context2.n = 7;
+            break;
+          }
+          throw new Error("Risposta non valida");
+        case 7:
+          return _context2.a(2, JSON.parse(raw.slice(s, e + 1)));
+      }
+    }, _callee2);
+  }));
+  return _chiamaAPI.apply(this, arguments);
+}
+function generaDomande(_x2, _x3) {
+  return _generaDomande.apply(this, arguments);
+}
+function _generaDomande() {
+  _generaDomande = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee3(formato, testo) {
+    var prompts;
+    return _regenerator().w(function (_context3) {
+      while (1) switch (_context3.n) {
+        case 0:
+          prompts = {
+            vero_falso: "Dal seguente testo di storia per la quarta elementare, genera esattamente 16 affermazioni Vero/Falso molto varie tra loro, che coprono aspetti diversi del testo. Met\xE0 vere, met\xE0 false con errore specifico e credibile. Usa solo il vocabolario del testo. SOLO JSON senza backtick:\n{\"domande\":[{\"testo\":\"...\",\"risposta\":true,\"spiegazione\":\"...\"}]}\nSpiegazioni max 12 parole.\nTESTO:\n".concat(testo),
+            multipla: "Dal seguente testo di storia per la quarta elementare, genera 12 domande a risposta multipla molto varie, che coprono aspetti diversi del testo. 4 opzioni, una corretta. Usa solo il vocabolario del testo. La risposta corretta non deve ripetere le parole della domanda. SOLO JSON senza backtick:\n{\"domande\":[{\"domanda\":\"...\",\"opzioni\":[\"A: ...\",\"B: ...\",\"C: ...\",\"D: ...\"],\"corretta\":\"A\",\"spiegazione\":\"...\"}]}\nSpiegazioni max 12 parole.\nTESTO:\n".concat(testo),
+            abbinamenti: "Dal seguente testo di storia per la quarta elementare, genera esattamente 14 coppie di abbinamenti molto varie, che coprono aspetti diversi del testo. Termini brevi a sinistra, definizioni max 12 parole a destra. Usa solo il vocabolario del testo. SOLO JSON senza backtick:\n{\"coppie\":[{\"termine\":\"...\",\"definizione\":\"...\"}]}\nTESTO:\n".concat(testo)
+          };
+          return _context3.a(2, chiamaAPI(prompts[formato], 2500));
+      }
+    }, _callee3);
+  }));
+  return _generaDomande.apply(this, arguments);
+}
+function salvaRisultato(_x4, _x5, _x6, _x7) {
+  return _salvaRisultato.apply(this, arguments);
+}
+function _salvaRisultato() {
+  _salvaRisultato = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee4(capitolo, formato, corrette, totale) {
+    var lista, r, _t2, _t3;
+    return _regenerator().w(function (_context4) {
+      while (1) switch (_context4.p = _context4.n) {
+        case 0:
+          _context4.p = 0;
+          lista = [];
+          _context4.p = 1;
+          _context4.n = 2;
+          return Promise.resolve({
+            value: localStorage.getItem("sig_risultati")
+          });
+        case 2:
+          r = _context4.v;
+          if (r) lista = JSON.parse(r.value);
+          _context4.n = 4;
+          break;
+        case 3:
+          _context4.p = 3;
+          _t2 = _context4.v;
+        case 4:
+          lista.unshift({
+            capitolo: capitolo,
+            formato: formato,
+            corrette: corrette,
+            totale: totale,
+            data: new Date().toLocaleDateString("it-IT"),
+            ts: Date.now()
+          });
+          if (lista.length > 50) lista = lista.slice(0, 50);
+          _context4.n = 5;
+          return Promise.resolve(localStorage.setItem("sig_risultati", JSON.stringify(lista)));
+        case 5:
+          _context4.n = 7;
+          break;
+        case 6:
+          _context4.p = 6;
+          _t3 = _context4.v;
+        case 7:
+          return _context4.a(2);
+      }
+    }, _callee4, null, [[1, 3], [0, 6]]);
+  }));
+  return _salvaRisultato.apply(this, arguments);
+}
+function Btn(_ref) {
+  var onClick = _ref.onClick,
+    children = _ref.children,
+    secondary = _ref.secondary,
+    disabled = _ref.disabled;
+  return /*#__PURE__*/React.createElement("button", {
+    onClick: onClick,
+    disabled: disabled,
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: secondary ? "0.5px solid #ccc" : "none",
+      background: secondary ? "transparent" : "#8C0020",
+      color: secondary ? "#666" : "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: disabled ? "default" : "pointer",
+      marginTop: secondary ? 10 : 0,
+      opacity: disabled ? 0.5 : 1
+    }
+  }, children);
+}
+function Loader(_ref2) {
+  var _ref2$frasi = _ref2.frasi,
+    frasi = _ref2$frasi === void 0 ? ["Caricamento in corso..."] : _ref2$frasi;
+  var _useState = useState(0),
+    _useState2 = _slicedToArray(_useState, 2),
+    idx = _useState2[0],
+    setIdx = _useState2[1];
+  var _useState3 = useState(1),
+    _useState4 = _slicedToArray(_useState3, 2),
+    op = _useState4[0],
+    setOp = _useState4[1];
+  useEffect(function () {
+    var iv = setInterval(function () {
+      setOp(0);
+      setTimeout(function () {
+        setIdx(function (i) {
+          return (i + 1) % frasi.length;
+        });
+        setOp(1);
+      }, 400);
+    }, 2200);
+    return function () {
+      return clearInterval(iv);
+    };
+  }, []);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "2.5rem 0",
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center",
+      gap: 6,
+      marginBottom: "1.5rem"
+    }
+  }, [0, 1, 2].map(function (i) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      style: {
+        width: 8,
+        height: 8,
+        borderRadius: "50%",
+        background: "#8C0020",
+        animation: "bounce 1.2s ease-in-out ".concat(i * 0.2, "s infinite")
+      }
+    });
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "#888",
+      transition: "opacity 0.4s",
+      opacity: op,
+      fontStyle: "italic"
+    }
+  }, frasi[idx]), /*#__PURE__*/React.createElement("style", null, "@keyframes bounce{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-10px)}}"));
+}
+function BarraProgresso(_ref3) {
+  var valore = _ref3.valore;
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 4,
+      background: "#eee",
+      borderRadius: 4,
+      marginBottom: "1.25rem",
+      overflow: "hidden"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: "100%",
+      width: "".concat(valore, "%"),
+      background: "#8C0020",
+      borderRadius: 4,
+      transition: "width 0.3s"
+    }
+  }));
+}
+
+// ---- GIOCHI BASE ----
+
+function GiocoVeroFalso(_ref4) {
+  var testo = _ref4.testo,
+    onEsci = _ref4.onEsci;
+  var _useState5 = useState([]),
+    _useState6 = _slicedToArray(_useState5, 2),
+    domande = _useState6[0],
+    setDomande = _useState6[1];
+  var _useState7 = useState(0),
+    _useState8 = _slicedToArray(_useState7, 2),
+    idx = _useState8[0],
+    setIdx = _useState8[1];
+  var _useState9 = useState([]),
+    _useState0 = _slicedToArray(_useState9, 2),
+    risposte = _useState0[0],
+    setRisposte = _useState0[1];
+  var _useState1 = useState(null),
+    _useState10 = _slicedToArray(_useState1, 2),
+    scelta = _useState10[0],
+    setScelta = _useState10[1];
+  var _useState11 = useState(true),
+    _useState12 = _slicedToArray(_useState11, 2),
+    loading = _useState12[0],
+    setLoading = _useState12[1];
+  var _useState13 = useState(null),
+    _useState14 = _slicedToArray(_useState13, 2),
+    errore = _useState14[0],
+    setErrore = _useState14[1];
+  var frasi = ["I Fenici preparano le domande...", "Le navi salpano da Sidone...", "La porpora viene estratta...", "L'alfabeto viene inciso...", "Cartagine si avvicina..."];
+  useEffect(function () {
+    generaDomande("vero_falso", testo).then(function (d) {
+      setDomande((d.domande || []).sort(function () {
+        return Math.random() - 0.5;
+      }).slice(0, 8));
+      setLoading(false);
+    }).catch(function (e) {
+      setErrore(e.message);
+      setLoading(false);
+    });
+  }, []);
+  if (loading) return /*#__PURE__*/React.createElement(Loader, {
+    frasi: frasi
+  });
+  if (errore) return /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1rem",
+      color: "#A32D2D",
+      fontSize: 14
+    }
+  }, "Errore: ", errore);
+  if (idx === -1) {
+    var c = risposte.filter(function (r) {
+      return r.s === r.d.risposta;
+    }).length;
+    salvaRisultato("I Fenici", "Vero / Falso", c, domande.length);
+    var pct = Math.round(c / domande.length * 100);
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 22,
+        fontWeight: 500,
+        marginBottom: 8
+      }
+    }, pct >= 80 ? "Ottimo!" : pct >= 50 ? "Quasi!" : "Riprova!"), /*#__PURE__*/React.createElement("div", {
+      style: {
+        padding: "1.5rem",
+        border: "0.5px solid #ddd",
+        borderRadius: 12,
+        marginBottom: "1.5rem",
+        textAlign: "center"
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 48,
+        fontWeight: 500,
+        color: "#2D6BE4"
+      }
+    }, c, "/", domande.length), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 14,
+        color: "#aaa",
+        marginTop: 4
+      }
+    }, "risposte corrette")), /*#__PURE__*/React.createElement(Btn, {
+      onClick: onEsci
+    }, "Scegli un altro gioco"));
+  }
+  var dom = domande[idx];
+  if (!dom) return null;
+  var rispondi = function rispondi(v) {
+    if (scelta !== null) return;
+    setScelta(v);
+    setRisposte([].concat(_toConsumableArray(risposte), [{
+      d: dom,
+      s: v
+    }]));
+  };
+  var prossima = function prossima() {
+    if (idx + 1 < domande.length) {
+      setIdx(idx + 1);
+      setScelta(null);
+    } else setIdx(-1);
+  };
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      marginBottom: 10,
+      fontSize: 12,
+      color: "#aaa"
+    }
+  }, /*#__PURE__*/React.createElement("span", null, idx + 1, "/", domande.length), /*#__PURE__*/React.createElement("span", null, "Vero / Falso")), /*#__PURE__*/React.createElement(BarraProgresso, {
+    valore: (idx + (scelta !== null ? 1 : 0)) / domande.length * 100
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1.25rem",
+      border: "0.5px solid #ddd",
+      borderRadius: 12,
+      marginBottom: "1.25rem",
+      fontSize: 16,
+      lineHeight: 1.6
+    }
+  }, dom.testo), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: 10,
+      marginBottom: 12
+    }
+  }, [true, false].map(function (v) {
+    var iC = scelta !== null && v === dom.risposta;
+    var iW = scelta === v && !iC;
+    return /*#__PURE__*/React.createElement("button", {
+      key: String(v),
+      onClick: function onClick() {
+        return rispondi(v);
+      },
+      style: {
+        padding: 16,
+        borderRadius: 10,
+        border: iC ? "1.5px solid #3B6D11" : iW ? "1.5px solid #A32D2D" : "0.5px solid #ddd",
+        background: iC ? "#EAF3DE" : iW ? "#FCEBEB" : "transparent",
+        color: iC ? "#3B6D11" : iW ? "#A32D2D" : "inherit",
+        fontSize: 16,
+        fontWeight: 500,
+        cursor: scelta !== null ? "default" : "pointer"
+      }
+    }, v ? "Vero" : "Falso");
+  })), scelta !== null && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "10px 14px",
+      borderRadius: 8,
+      marginBottom: 12,
+      background: scelta === dom.risposta ? "#EAF3DE" : "#FCEBEB",
+      fontSize: 13,
+      color: scelta === dom.risposta ? "#3B6D11" : "#A32D2D",
+      lineHeight: 1.5
+    }
+  }, scelta === dom.risposta ? "Esatto! " : "Non è corretto. ", dom.spiegazione), /*#__PURE__*/React.createElement(Btn, {
+    onClick: prossima
+  }, idx + 1 < domande.length ? "Prossima domanda" : "Vedi risultati")));
+}
+function GiocoMultipla(_ref5) {
+  var testo = _ref5.testo,
+    onEsci = _ref5.onEsci;
+  var _useState15 = useState([]),
+    _useState16 = _slicedToArray(_useState15, 2),
+    domande = _useState16[0],
+    setDomande = _useState16[1];
+  var _useState17 = useState(0),
+    _useState18 = _slicedToArray(_useState17, 2),
+    idx = _useState18[0],
+    setIdx = _useState18[1];
+  var _useState19 = useState([]),
+    _useState20 = _slicedToArray(_useState19, 2),
+    risposte = _useState20[0],
+    setRisposte = _useState20[1];
+  var _useState21 = useState(null),
+    _useState22 = _slicedToArray(_useState21, 2),
+    scelta = _useState22[0],
+    setScelta = _useState22[1];
+  var _useState23 = useState(true),
+    _useState24 = _slicedToArray(_useState23, 2),
+    loading = _useState24[0],
+    setLoading = _useState24[1];
+  var _useState25 = useState(null),
+    _useState26 = _slicedToArray(_useState25, 2),
+    errore = _useState26[0],
+    setErrore = _useState26[1];
+  var frasi = ["I mercanti preparano le domande...", "Le rotte vengono tracciate...", "La porpora viene estratta...", "L'alfabeto viene inciso...", "Cartagine si avvicina..."];
+  useEffect(function () {
+    generaDomande("multipla", testo).then(function (d) {
+      setDomande((d.domande || []).sort(function () {
+        return Math.random() - 0.5;
+      }).slice(0, 6));
+      setLoading(false);
+    }).catch(function (e) {
+      setErrore(e.message);
+      setLoading(false);
+    });
+  }, []);
+  if (loading) return /*#__PURE__*/React.createElement(Loader, {
+    frasi: frasi
+  });
+  if (errore) return /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1rem",
+      color: "#A32D2D",
+      fontSize: 14
+    }
+  }, "Errore: ", errore);
+  if (idx === -1) {
+    var c = risposte.filter(function (r) {
+      return r.s === r.d.corretta;
+    }).length;
+    salvaRisultato("I Fenici", "Risposta multipla", c, domande.length);
+    var pct = Math.round(c / domande.length * 100);
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 22,
+        fontWeight: 500,
+        marginBottom: 8
+      }
+    }, pct >= 80 ? "Ottimo!" : pct >= 50 ? "Quasi!" : "Riprova!"), /*#__PURE__*/React.createElement("div", {
+      style: {
+        padding: "1.5rem",
+        border: "0.5px solid #ddd",
+        borderRadius: 12,
+        marginBottom: "1.5rem",
+        textAlign: "center"
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 48,
+        fontWeight: 500,
+        color: "#2D6BE4"
+      }
+    }, c, "/", domande.length), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 14,
+        color: "#aaa",
+        marginTop: 4
+      }
+    }, "risposte corrette")), /*#__PURE__*/React.createElement(Btn, {
+      onClick: onEsci
+    }, "Scegli un altro gioco"));
+  }
+  var dom = domande[idx];
+  if (!dom) return null;
+  var rispondi = function rispondi(l) {
+    if (scelta !== null) return;
+    setScelta(l);
+    setRisposte([].concat(_toConsumableArray(risposte), [{
+      d: dom,
+      s: l
+    }]));
+  };
+  var prossima = function prossima() {
+    if (idx + 1 < domande.length) {
+      setIdx(idx + 1);
+      setScelta(null);
+    } else setIdx(-1);
+  };
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      marginBottom: 10,
+      fontSize: 12,
+      color: "#aaa"
+    }
+  }, /*#__PURE__*/React.createElement("span", null, idx + 1, "/", domande.length), /*#__PURE__*/React.createElement("span", null, "Risposta multipla")), /*#__PURE__*/React.createElement(BarraProgresso, {
+    valore: (idx + (scelta !== null ? 1 : 0)) / domande.length * 100
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1.25rem",
+      border: "0.5px solid #ddd",
+      borderRadius: 12,
+      marginBottom: "1.25rem",
+      fontSize: 16,
+      lineHeight: 1.6,
+      fontWeight: 500
+    }
+  }, dom.domanda), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8,
+      marginBottom: 12
+    }
+  }, (dom.opzioni || []).map(function (op, i) {
+    var l = ["A", "B", "C", "D"][i];
+    var iC = scelta !== null && l === dom.corretta;
+    var iW = scelta === l && !iC;
+    var txt = op.includes(": ") ? op.split(": ").slice(1).join(": ") : op;
+    return /*#__PURE__*/React.createElement("button", {
+      key: l,
+      onClick: function onClick() {
+        return rispondi(l);
+      },
+      style: {
+        padding: "12px 16px",
+        borderRadius: 10,
+        border: iC ? "1.5px solid #3B6D11" : iW ? "1.5px solid #A32D2D" : "0.5px solid #ddd",
+        background: iC ? "#EAF3DE" : iW ? "#FCEBEB" : "transparent",
+        color: iC ? "#3B6D11" : iW ? "#A32D2D" : "inherit",
+        fontSize: 14,
+        cursor: scelta !== null ? "default" : "pointer",
+        textAlign: "left",
+        display: "flex",
+        gap: 12,
+        lineHeight: 1.5
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontWeight: 500,
+        width: 18,
+        flexShrink: 0
+      }
+    }, l), /*#__PURE__*/React.createElement("span", null, txt));
+  })), scelta !== null && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "10px 14px",
+      borderRadius: 8,
+      marginBottom: 12,
+      background: scelta === dom.corretta ? "#EAF3DE" : "#FCEBEB",
+      fontSize: 13,
+      color: scelta === dom.corretta ? "#3B6D11" : "#A32D2D",
+      lineHeight: 1.5
+    }
+  }, scelta === dom.corretta ? "Esatto! " : "Corretta: ".concat(dom.corretta, ". "), dom.spiegazione), /*#__PURE__*/React.createElement(Btn, {
+    onClick: prossima
+  }, idx + 1 < domande.length ? "Prossima domanda" : "Vedi risultati")));
+}
+function GiocoAbbinamenti(_ref6) {
+  var testo = _ref6.testo,
+    onEsci = _ref6.onEsci;
+  var _useState27 = useState([]),
+    _useState28 = _slicedToArray(_useState27, 2),
+    coppie = _useState28[0],
+    setCoppie = _useState28[1];
+  var _useState29 = useState([]),
+    _useState30 = _slicedToArray(_useState29, 2),
+    termini = _useState30[0],
+    setTermini = _useState30[1];
+  var _useState31 = useState([]),
+    _useState32 = _slicedToArray(_useState31, 2),
+    defs = _useState32[0],
+    setDefs = _useState32[1];
+  var _useState33 = useState(null),
+    _useState34 = _slicedToArray(_useState33, 2),
+    selT = _useState34[0],
+    setSelT = _useState34[1];
+  var _useState35 = useState({}),
+    _useState36 = _slicedToArray(_useState35, 2),
+    abbinati = _useState36[0],
+    setAbbinati = _useState36[1];
+  var _useState37 = useState({}),
+    _useState38 = _slicedToArray(_useState37, 2),
+    errori = _useState38[0],
+    setErrori = _useState38[1];
+  var _useState39 = useState(false),
+    _useState40 = _slicedToArray(_useState39, 2),
+    fine = _useState40[0],
+    setFine = _useState40[1];
+  var _useState41 = useState(true),
+    _useState42 = _slicedToArray(_useState41, 2),
+    loading = _useState42[0],
+    setLoading = _useState42[1];
+  var _useState43 = useState(null),
+    _useState44 = _slicedToArray(_useState43, 2),
+    errore = _useState44[0],
+    setErrore = _useState44[1];
+  var frasi = ["Le coppie vengono preparate...", "Gli artigiani incidono i simboli...", "Le saline vengono allestite...", "Le stelle guidano i navigatori...", "Le rotte vengono tracciate..."];
+  useEffect(function () {
+    generaDomande("abbinamenti", testo).then(function (d) {
+      var sel = (d.coppie || []).sort(function () {
+        return Math.random() - 0.5;
+      }).slice(0, 6);
+      setCoppie(sel);
+      setTermini(_toConsumableArray(sel).sort(function () {
+        return Math.random() - 0.5;
+      }));
+      setDefs(_toConsumableArray(sel).sort(function () {
+        return Math.random() - 0.5;
+      }));
+      setLoading(false);
+    }).catch(function (e) {
+      setErrore(e.message);
+      setLoading(false);
+    });
+  }, []);
+  if (loading) return /*#__PURE__*/React.createElement(Loader, {
+    frasi: frasi
+  });
+  if (errore) return /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1rem",
+      color: "#A32D2D",
+      fontSize: 14
+    }
+  }, "Errore: ", errore);
+  if (fine) {
+    salvaRisultato("I Fenici", "Abbinamenti", coppie.length, coppie.length);
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 22,
+        fontWeight: 500,
+        marginBottom: 8
+      }
+    }, "Tutti abbinati!"), /*#__PURE__*/React.createElement("div", {
+      style: {
+        padding: "1.5rem",
+        border: "0.5px solid #ddd",
+        borderRadius: 12,
+        marginBottom: "1.5rem",
+        textAlign: "center"
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 48,
+        fontWeight: 500,
+        color: "#2D6BE4"
+      }
+    }, coppie.length, "/", coppie.length), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 14,
+        color: "#aaa",
+        marginTop: 4
+      }
+    }, "coppie abbinate")), /*#__PURE__*/React.createElement(Btn, {
+      onClick: onEsci
+    }, "Scegli un altro gioco"));
+  }
+  var handleT = function handleT(t) {
+    if (abbinati[t]) return;
+    setSelT(t === selT ? null : t);
+  };
+  var handleD = function handleD(def) {
+    var _coppie$find;
+    if (Object.values(abbinati).includes(def)) return;
+    if (!selT) return;
+    var ok = ((_coppie$find = coppie.find(function (c) {
+      return c.termine === selT;
+    })) === null || _coppie$find === void 0 ? void 0 : _coppie$find.definizione) === def;
+    if (ok) {
+      var n = _objectSpread(_objectSpread({}, abbinati), {}, _defineProperty({}, selT, def));
+      setAbbinati(n);
+      setSelT(null);
+      if (Object.keys(n).length === coppie.length) setTimeout(function () {
+        return setFine(true);
+      }, 400);
+    } else {
+      setErrori(_objectSpread(_objectSpread({}, errori), {}, _defineProperty(_defineProperty({}, selT, true), "d_".concat(def), true)));
+      setTimeout(function () {
+        setErrori(function (e) {
+          var n = _objectSpread({}, e);
+          delete n[selT];
+          delete n["d_".concat(def)];
+          return n;
+        });
+        setSelT(null);
+      }, 800);
+    }
+  };
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      marginBottom: 10,
+      fontSize: 12,
+      color: "#aaa"
+    }
+  }, /*#__PURE__*/React.createElement("span", null, Object.keys(abbinati).length, "/", coppie.length, " abbinati"), /*#__PURE__*/React.createElement("span", null, "Abbinamenti")), /*#__PURE__*/React.createElement(BarraProgresso, {
+    valore: Object.keys(abbinati).length / coppie.length * 100
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: 8
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 6
+    }
+  }, termini.map(function (c) {
+    var a = !!abbinati[c.termine],
+      s = selT === c.termine,
+      e = errori[c.termine];
+    return /*#__PURE__*/React.createElement("button", {
+      key: c.termine,
+      onClick: function onClick() {
+        return handleT(c.termine);
+      },
+      style: {
+        padding: "10px 12px",
+        borderRadius: 8,
+        border: a ? "0.5px solid #3B6D1144" : e ? "1.5px solid #A32D2D" : s ? "1.5px solid #2D6BE4" : "0.5px solid #ddd",
+        background: a ? "#EAF3DE" : e ? "#FCEBEB" : s ? "#EEF4FF" : "transparent",
+        color: a ? "#3B6D11" : e ? "#A32D2D" : s ? "#2D6BE4" : "inherit",
+        fontSize: 13,
+        fontWeight: 500,
+        cursor: a ? "default" : "pointer",
+        textAlign: "left",
+        lineHeight: 1.4,
+        minHeight: 44
+      }
+    }, c.termine);
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 6
+    }
+  }, defs.map(function (c) {
+    var a = Object.values(abbinati).includes(c.definizione),
+      e = errori["d_".concat(c.definizione)];
+    return /*#__PURE__*/React.createElement("button", {
+      key: c.definizione,
+      onClick: function onClick() {
+        return handleD(c.definizione);
+      },
+      style: {
+        padding: "10px 12px",
+        borderRadius: 8,
+        border: a ? "0.5px solid #3B6D1144" : e ? "1.5px solid #A32D2D" : "0.5px solid #ddd",
+        background: a ? "#EAF3DE" : e ? "#FCEBEB" : "transparent",
+        color: a ? "#3B6D11" : e ? "#A32D2D" : "#666",
+        fontSize: 12,
+        cursor: a ? "default" : "pointer",
+        textAlign: "left",
+        lineHeight: 1.4,
+        minHeight: 44
+      }
+    }, c.definizione);
+  }))));
+}
+
+// ---- TIMELINE ----
+function generaEventi(_x8) {
+  return _generaEventi.apply(this, arguments);
+}
+function _generaEventi() {
+  _generaEventi = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee5(testo) {
+    var _parsed$eventi;
+    var prompt, res, data, raw, s, e, parsed, visti, unici;
+    return _regenerator().w(function (_context5) {
+      while (1) switch (_context5.n) {
+        case 0:
+          prompt = "Dal seguente testo di storia per la quarta elementare, genera esattamente 4 eventi storici. REGOLA FONDAMENTALE: ogni evento deve avere una data DIVERSA dagli altri. Non usare la stessa data per pi\xF9 eventi. Scegli 4 date diverse presenti nel testo. La descrizione deve essere breve (max 8 parole) e non deve contenere la data. Italiano semplice per bambini di 9 anni. SOLO JSON senza backtick:\n{\"eventi\":[{\"id\":1,\"descrizione\":\"I Fenici iniziano a svilupparsi\",\"data\":\"2000 a.C. circa\"}]}\nTESTO:\n".concat(testo);
+          _context5.n = 1;
+          return fetch("/.netlify/functions/anthropic", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              model: "claude-sonnet-4-20250514",
+              max_tokens: 800,
+              messages: [{
+                role: "user",
+                content: prompt
+              }]
+            })
+          });
+        case 1:
+          res = _context5.v;
+          if (res.ok) {
+            _context5.n = 2;
+            break;
+          }
+          throw new Error("Errore HTTP " + res.status);
+        case 2:
+          _context5.n = 3;
+          return res.json();
+        case 3:
+          data = _context5.v;
+          if (!data.error) {
+            _context5.n = 4;
+            break;
+          }
+          throw new Error(data.error.message);
+        case 4:
+          raw = data.content.map(function (i) {
+            return i.text || "";
+          }).join("").trim();
+          s = raw.indexOf("{");
+          e = raw.lastIndexOf("}");
+          if (!(s === -1 || e === -1)) {
+            _context5.n = 5;
+            break;
+          }
+          throw new Error("Risposta non valida");
+        case 5:
+          parsed = JSON.parse(raw.slice(s, e + 1));
+          if ((_parsed$eventi = parsed.eventi) !== null && _parsed$eventi !== void 0 && _parsed$eventi.length) {
+            _context5.n = 6;
+            break;
+          }
+          throw new Error("Nessun evento generato");
+        case 6:
+          // Verifica e rimuovi duplicati di data
+          visti = new Set();
+          unici = parsed.eventi.filter(function (ev) {
+            if (visti.has(ev.data)) return false;
+            visti.add(ev.data);
+            return true;
+          }).slice(0, 4);
+          if (!(unici.length < 2)) {
+            _context5.n = 7;
+            break;
+          }
+          throw new Error("Troppi eventi con la stessa data");
+        case 7:
+          return _context5.a(2, unici);
+      }
+    }, _callee5);
+  }));
+  return _generaEventi.apply(this, arguments);
+}
+function parseAnno(data) {
+  var num = parseInt(data.replace(/[^0-9]/g, "")) || 0;
+  return data.toLowerCase().includes("a.c") ? -num : num;
+}
+function LoaderTimeline() {
+  var _useState45 = useState(0),
+    _useState46 = _slicedToArray(_useState45, 2),
+    idx = _useState46[0],
+    setIdx = _useState46[1];
+  var _useState47 = useState(1),
+    _useState48 = _slicedToArray(_useState47, 2),
+    op = _useState48[0],
+    setOp = _useState48[1];
+  var frasi = ["I Fenici tracciano la linea del tempo...", "Le date vengono incise nella pietra...", "Gli eventi prendono posto...", "La storia si mette in fila..."];
+  useEffect(function () {
+    var iv = setInterval(function () {
+      setOp(0);
+      setTimeout(function () {
+        setIdx(function (i) {
+          return (i + 1) % frasi.length;
+        });
+        setOp(1);
+      }, 400);
+    }, 2200);
+    return function () {
+      return clearInterval(iv);
+    };
+  }, []);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "2.5rem 0",
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center",
+      gap: 6,
+      marginBottom: "1.5rem"
+    }
+  }, [0, 1, 2].map(function (i) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      style: {
+        width: 8,
+        height: 8,
+        borderRadius: "50%",
+        background: "#8C0020",
+        animation: "bounce 1.2s ease-in-out ".concat(i * 0.2, "s infinite")
+      }
+    });
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "#888",
+      transition: "opacity 0.4s",
+      opacity: op,
+      fontStyle: "italic"
+    }
+  }, frasi[idx]), /*#__PURE__*/React.createElement("style", null, "@keyframes bounce{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-10px)}}"));
+}
+function GiocoTimeline(_ref7) {
+  var _ref7$testo = _ref7.testo,
+    testo = _ref7$testo === void 0 ? "" : _ref7$testo,
+    onEsci = _ref7.onEsci;
+  var _useState49 = useState("intro"),
+    _useState50 = _slicedToArray(_useState49, 2),
+    fase = _useState50[0],
+    setFase = _useState50[1];
+  var _useState51 = useState([]),
+    _useState52 = _slicedToArray(_useState51, 2),
+    eventiOrdinati = _useState52[0],
+    setEventiOrdinati = _useState52[1];
+  var _useState53 = useState([]),
+    _useState54 = _slicedToArray(_useState53, 2),
+    slotContenuto = _useState54[0],
+    setSlotContenuto = _useState54[1];
+  var _useState55 = useState([]),
+    _useState56 = _slicedToArray(_useState55, 2),
+    carteDisp = _useState56[0],
+    setCarteDisp = _useState56[1];
+  var _useState57 = useState(false),
+    _useState58 = _slicedToArray(_useState57, 2),
+    loading = _useState58[0],
+    setLoading = _useState58[1];
+  var _useState59 = useState(null),
+    _useState60 = _slicedToArray(_useState59, 2),
+    errore = _useState60[0],
+    setErrore = _useState60[1];
+  var _useState61 = useState(false),
+    _useState62 = _slicedToArray(_useState61, 2),
+    verificato = _useState62[0],
+    setVerificato = _useState62[1];
+  var _useState63 = useState(null),
+    _useState64 = _slicedToArray(_useState63, 2),
+    draggingId = _useState64[0],
+    setDraggingId = _useState64[1];
+  var _useState65 = useState(null),
+    _useState66 = _slicedToArray(_useState65, 2),
+    draggingFrom = _useState66[0],
+    setDraggingFrom = _useState66[1];
+  var _useState67 = useState(null),
+    _useState68 = _slicedToArray(_useState67, 2),
+    selezionata = _useState68[0],
+    setSelezionata = _useState68[1]; // per click su mobile
+
+  var avvia = function avvia() {
+    setLoading(true);
+    setErrore(null);
+    setSelezionata(null);
+    generaEventi(testo).then(function (eventi) {
+      var ordinati = _toConsumableArray(eventi).sort(function (a, b) {
+        return parseAnno(a.data) - parseAnno(b.data);
+      });
+      setEventiOrdinati(ordinati);
+      setSlotContenuto(Array(ordinati.length).fill(null));
+      setCarteDisp(_toConsumableArray(eventi).sort(function () {
+        return Math.random() - 0.5;
+      }));
+      setVerificato(false);
+      setFase("gioco");
+      setLoading(false);
+    }).catch(function (e) {
+      setErrore(e.message);
+      setLoading(false);
+    });
+  };
+
+  // Drag handlers
+  var onDragStartCarta = function onDragStartCarta(id) {
+    setDraggingId(id);
+    setDraggingFrom("carte");
+  };
+  var onDragStartSlot = function onDragStartSlot(i) {
+    if (slotContenuto[i]) {
+      setDraggingId(slotContenuto[i].id);
+      setDraggingFrom(i);
+    }
+  };
+  var onDropSlot = function onDropSlot(slotIdx) {
+    if (verificato) return;
+    var nuoviSlot = _toConsumableArray(slotContenuto);
+    var nuoveCarte = _toConsumableArray(carteDisp);
+    if (draggingFrom === "carte") {
+      var ev = carteDisp.find(function (e) {
+        return e.id === draggingId;
+      });
+      if (!ev) return;
+      var vecchio = nuoviSlot[slotIdx];
+      nuoviSlot[slotIdx] = ev;
+      var filtrate = nuoveCarte.filter(function (e) {
+        return e.id !== draggingId;
+      });
+      if (vecchio) filtrate.push(vecchio);
+      setSlotContenuto(nuoviSlot);
+      setCarteDisp(filtrate);
+    } else if (typeof draggingFrom === "number" && draggingFrom !== slotIdx) {
+      var tmp = nuoviSlot[slotIdx];
+      nuoviSlot[slotIdx] = nuoviSlot[draggingFrom];
+      nuoviSlot[draggingFrom] = tmp;
+      setSlotContenuto(nuoviSlot);
+    }
+    setDraggingId(null);
+    setDraggingFrom(null);
+  };
+  var onDropCarte = function onDropCarte() {
+    if (verificato || typeof draggingFrom !== "number") return;
+    var ev = slotContenuto[draggingFrom];
+    if (!ev) return;
+    var nuoviSlot = _toConsumableArray(slotContenuto);
+    nuoviSlot[draggingFrom] = null;
+    setSlotContenuto(nuoviSlot);
+    setCarteDisp([].concat(_toConsumableArray(carteDisp), [ev]));
+    setDraggingId(null);
+    setDraggingFrom(null);
+  };
+
+  // Click handlers (per mobile / alternativa al drag)
+  var handleClickCarta = function handleClickCarta(ev) {
+    if (verificato) return;
+    if ((selezionata === null || selezionata === void 0 ? void 0 : selezionata.id) === ev.id) {
+      setSelezionata(null);
+      return;
+    }
+    setSelezionata(ev);
+  };
+  var handleClickSlot = function handleClickSlot(slotIdx) {
+    if (verificato) return;
+    if (selezionata) {
+      // Piazza carta selezionata nello slot
+      var nuoviSlot = _toConsumableArray(slotContenuto);
+      var vecchio = nuoviSlot[slotIdx];
+      nuoviSlot[slotIdx] = selezionata;
+      var nuoveCarte = carteDisp.filter(function (e) {
+        return e.id !== selezionata.id;
+      });
+      if (vecchio) nuoveCarte.push(vecchio);
+      setSlotContenuto(nuoviSlot);
+      setCarteDisp(nuoveCarte);
+      setSelezionata(null);
+    } else if (slotContenuto[slotIdx]) {
+      // Rimuovi dall'slot
+      var ev = slotContenuto[slotIdx];
+      var _nuoviSlot = _toConsumableArray(slotContenuto);
+      _nuoviSlot[slotIdx] = null;
+      setSlotContenuto(_nuoviSlot);
+      setCarteDisp([].concat(_toConsumableArray(carteDisp), [ev]));
+    }
+  };
+  var tuttiPiazzati = slotContenuto.every(function (s) {
+    return s !== null;
+  });
+  var punteggio = slotContenuto.filter(function (ev, i) {
+    var _eventiOrdinati$i;
+    return (ev === null || ev === void 0 ? void 0 : ev.id) === ((_eventiOrdinati$i = eventiOrdinati[i]) === null || _eventiOrdinati$i === void 0 ? void 0 : _eventiOrdinati$i.id);
+  }).length;
+  var n = eventiOrdinati.length;
+  var wrap = {
+    fontFamily: "system-ui, sans-serif",
+    maxWidth: 520,
+    margin: "0 auto",
+    padding: "1.5rem 1rem"
+  };
+  if (fase === "intro") return /*#__PURE__*/React.createElement("div", {
+    style: wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 11,
+      fontWeight: 500,
+      color: "#aaa",
+      letterSpacing: "0.07em",
+      textTransform: "uppercase",
+      marginBottom: 4
+    }
+  }, "Storia \xB7 I Fenici"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 22,
+      fontWeight: 500,
+      marginBottom: 8
+    }
+  }, "Linea del tempo"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "#666",
+      marginBottom: "1.5rem",
+      lineHeight: 1.6
+    }
+  }, "Trascina ogni evento nella casella con la data giusta sulla linea del tempo. Puoi anche toccare prima la carta e poi la casella."), errore && /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "10px 14px",
+      borderRadius: 8,
+      marginBottom: "1rem",
+      background: "#FCEBEB",
+      fontSize: 13,
+      color: "#A32D2D"
+    }
+  }, "Errore: ", errore), loading ? /*#__PURE__*/React.createElement(Loader, null) : /*#__PURE__*/React.createElement("button", {
+    onClick: avvia,
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer"
+    }
+  }, errore ? "Riprova" : "Inizia"));
+  if (fase === "gioco") return /*#__PURE__*/React.createElement("div", {
+    style: wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: "1.25rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      fontWeight: 500
+    }
+  }, "Linea del tempo"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      color: "#aaa"
+    }
+  }, slotContenuto.filter(Boolean).length, "/", n, " piazzati")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginBottom: "1.5rem",
+      overflowX: "auto"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      minWidth: n * 110,
+      position: "relative",
+      paddingBottom: 8
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "absolute",
+      top: 20,
+      left: 40,
+      right: 40,
+      height: 2,
+      background: "#ddd",
+      zIndex: 0
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      position: "relative",
+      zIndex: 1
+    }
+  }, eventiOrdinati.map(function (ev, i) {
+    var slot = slotContenuto[i];
+    var corretto = verificato && (slot === null || slot === void 0 ? void 0 : slot.id) === ev.id;
+    var sbagliato = verificato && slot && slot.id !== ev.id;
+    var isSel = selezionata !== null;
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      style: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        width: 100
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        width: 14,
+        height: 14,
+        borderRadius: "50%",
+        marginBottom: 8,
+        background: corretto ? "#3B6D11" : sbagliato ? "#A32D2D" : slot ? "#2D6BE4" : "#fff",
+        border: "2px solid ".concat(corretto ? "#3B6D11" : sbagliato ? "#A32D2D" : slot ? "#2D6BE4" : "#aaa"),
+        zIndex: 2
+      }
+    }), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 11,
+        fontWeight: 700,
+        color: "#2D6BE4",
+        textAlign: "center",
+        marginBottom: 6,
+        lineHeight: 1.3
+      }
+    }, ev.data), /*#__PURE__*/React.createElement("div", {
+      onDragOver: function onDragOver(e) {
+        return e.preventDefault();
+      },
+      onDrop: function onDrop() {
+        return onDropSlot(i);
+      },
+      onClick: function onClick() {
+        return handleClickSlot(i);
+      },
+      draggable: !!slot && !verificato,
+      onDragStart: function onDragStart() {
+        return onDragStartSlot(i);
+      },
+      style: {
+        width: 90,
+        minHeight: 60,
+        padding: "6px 8px",
+        borderRadius: 8,
+        border: "1.5px ".concat(slot ? "solid" : "dashed", " ").concat(corretto ? "#3B6D11" : sbagliato ? "#A32D2D" : isSel && !slot ? "#2D6BE4" : slot ? "#2D6BE4" : "#bbb"),
+        background: corretto ? "#EAF3DE" : sbagliato ? "#FCEBEB" : isSel && !slot ? "#EEF4FF" : slot ? "#EEF4FF" : "transparent",
+        fontSize: 11,
+        lineHeight: 1.4,
+        textAlign: "center",
+        color: corretto ? "#3B6D11" : sbagliato ? "#A32D2D" : slot ? "#2D6BE4" : "#bbb",
+        cursor: !verificato ? "pointer" : "default",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        transition: "all 0.15s",
+        userSelect: "none"
+      }
+    }, slot ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontWeight: 500
+      }
+    }, slot.descrizione) : /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontStyle: "italic",
+        fontSize: 10
+      }
+    }, isSel ? "tocca per piazzare" : "trascina qui")), verificato && (corretto ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontSize: 16,
+        marginTop: 4
+      }
+    }, "\u2713") : sbagliato ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontSize: 16,
+        marginTop: 4
+      }
+    }, "\u2717") : null));
+  })))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 6,
+      marginBottom: "1.25rem",
+      fontSize: 11,
+      color: "#aaa"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontWeight: 600
+    }
+  }, "PASSATO"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1,
+      height: 1,
+      background: "#ddd"
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontWeight: 600
+    }
+  }, "PRESENTE"), /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 14
+    }
+  }, "\u2192")), /*#__PURE__*/React.createElement("div", {
+    onDragOver: function onDragOver(e) {
+      return e.preventDefault();
+    },
+    onDrop: onDropCarte,
+    style: {
+      marginBottom: "1.25rem",
+      padding: "10px 12px",
+      borderRadius: 10,
+      border: "0.5px dashed #ddd",
+      minHeight: 56
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 11,
+      color: "#aaa",
+      marginBottom: 8
+    }
+  }, "Tocca o trascina una carta, poi scegli la data giusta:"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 8
+    }
+  }, carteDisp.length === 0 ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 12,
+      color: "#ccc",
+      fontStyle: "italic"
+    }
+  }, "Tutte le carte sono piazzate") : carteDisp.map(function (ev) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: ev.id,
+      draggable: true,
+      onDragStart: function onDragStart() {
+        return onDragStartCarta(ev.id);
+      },
+      onClick: function onClick() {
+        return handleClickCarta(ev);
+      },
+      style: {
+        padding: "8px 12px",
+        borderRadius: 8,
+        border: "1.5px solid ".concat((selezionata === null || selezionata === void 0 ? void 0 : selezionata.id) === ev.id ? "#2D6BE4" : "#ccc"),
+        background: (selezionata === null || selezionata === void 0 ? void 0 : selezionata.id) === ev.id ? "#EEF4FF" : "#fff",
+        color: "#333",
+        fontSize: 12,
+        fontWeight: 500,
+        cursor: "pointer",
+        userSelect: "none",
+        lineHeight: 1.4,
+        boxShadow: (selezionata === null || selezionata === void 0 ? void 0 : selezionata.id) === ev.id ? "0 2px 8px rgba(45,107,228,0.2)" : "0 1px 3px rgba(0,0,0,0.06)",
+        transition: "all 0.15s",
+        transform: (selezionata === null || selezionata === void 0 ? void 0 : selezionata.id) === ev.id ? "translateY(-2px)" : "none"
+      }
+    }, ev.descrizione);
+  }))), !verificato && /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      return setVerificato(true);
+    },
+    disabled: !tuttiPiazzati,
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: tuttiPiazzati ? "pointer" : "default",
+      opacity: tuttiPiazzati ? 1 : 0.4
+    }
+  }, "Verifica"), verificato && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "12px 16px",
+      borderRadius: 10,
+      marginBottom: 12,
+      background: punteggio === n ? "#EAF3DE" : "#FFF8E6",
+      border: "0.5px solid ".concat(punteggio === n ? "#3B6D1144" : "#C17A2A44"),
+      fontSize: 14,
+      color: punteggio === n ? "#3B6D11" : "#854F0B"
+    }
+  }, punteggio === n ? "Perfetto! Tutti gli eventi al posto giusto." : "".concat(punteggio, " su ").concat(n, " eventi nella posizione corretta.")), punteggio < n && /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginBottom: 12,
+      display: "flex",
+      flexDirection: "column",
+      gap: 6
+    }
+  }, eventiOrdinati.map(function (ev, i) {
+    var _slotContenuto$i;
+    if (((_slotContenuto$i = slotContenuto[i]) === null || _slotContenuto$i === void 0 ? void 0 : _slotContenuto$i.id) === ev.id) return null;
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      style: {
+        padding: "8px 12px",
+        borderRadius: 8,
+        background: "#FFF8E6",
+        border: "0.5px solid #C17A2A44",
+        fontSize: 12,
+        color: "#854F0B",
+        lineHeight: 1.5
+      }
+    }, /*#__PURE__*/React.createElement("strong", null, ev.data), " \u2192 ", ev.descrizione);
+  })), /*#__PURE__*/React.createElement("button", {
+    onClick: avvia,
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer"
+    }
+  }, "Gioca ancora"), /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      return setFase("intro");
+    },
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "0.5px solid #ddd",
+      background: "transparent",
+      color: "#666",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer",
+      marginTop: 10
+    }
+  }, "Torna all'inizio")));
+  return null;
+}
+
+// ---- COMPLETAMENTO FRASI ----
+function generaEsercizi(_x9) {
+  return _generaEsercizi.apply(this, arguments);
+}
+function _generaEsercizi() {
+  _generaEsercizi = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee6(testo) {
+    var prompt, res, data, raw, s, e, parsed;
+    return _regenerator().w(function (_context6) {
+      while (1) switch (_context6.n) {
+        case 0:
+          prompt = "Dal seguente testo di storia per la quarta elementare, genera esattamente 12 frasi con una parola mancante ciascuna, molto varie tra loro e che coprono argomenti diversi del testo. REGOLA FONDAMENTALE: la parola mancante deve essere l'unica risposta possibile in quella frase. Nessun'altra parola del testo deve adattarsi alla stessa posizione. Preferisci frasi con nomi propri, luoghi o termini tecnici specifici. Per ogni frase fornisci anche 7 parole distrattrici plausibili ma errate (per un totale di 8 parole tra cui scegliere). Le parole devono essere tutte presenti nel testo originale. Usa solo il vocabolario del testo. Italiano corretto. SOLO JSON senza backtick:\n{\"esercizi\":[{\"frase\":\"La ___ \xE8 un colorante ricavato dal murice.\",\"risposta\":\"porpora\",\"distrattori\":[\"chiglia\",\"ancora\",\"moneta\",\"soffiatura\",\"baratto\",\"tofet\",\"rostro\"]}]}\nLa parola mancante deve essere sostituita da ___ nella frase. Genera frasi varie che coprono argomenti diversi.\nTESTO:\n".concat(testo);
+          _context6.n = 1;
+          return fetch("/.netlify/functions/anthropic", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              model: "claude-sonnet-4-20250514",
+              max_tokens: 3000,
+              messages: [{
+                role: "user",
+                content: prompt
+              }]
+            })
+          });
+        case 1:
+          res = _context6.v;
+          if (res.ok) {
+            _context6.n = 2;
+            break;
+          }
+          throw new Error("Errore HTTP " + res.status);
+        case 2:
+          _context6.n = 3;
+          return res.json();
+        case 3:
+          data = _context6.v;
+          if (!data.error) {
+            _context6.n = 4;
+            break;
+          }
+          throw new Error(data.error.message);
+        case 4:
+          raw = data.content.map(function (i) {
+            return i.text || "";
+          }).join("").trim();
+          s = raw.indexOf("{");
+          e = raw.lastIndexOf("}");
+          if (!(s === -1 || e === -1)) {
+            _context6.n = 5;
+            break;
+          }
+          throw new Error("Risposta non valida");
+        case 5:
+          parsed = JSON.parse(raw.slice(s, e + 1));
+          if (!(!parsed.esercizi || parsed.esercizi.length === 0)) {
+            _context6.n = 6;
+            break;
+          }
+          throw new Error("Nessun esercizio generato");
+        case 6:
+          return _context6.a(2, parsed);
+      }
+    }, _callee6);
+  }));
+  return _generaEsercizi.apply(this, arguments);
+}
+function FraseConSpazio(_ref8) {
+  var frase = _ref8.frase,
+    risposta = _ref8.risposta,
+    paroleDisponibili = _ref8.paroleDisponibili,
+    onScelta = _ref8.onScelta,
+    sceltaFatta = _ref8.sceltaFatta;
+  var parti = frase.split("___");
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1.25rem",
+      border: "0.5px solid ".concat(sceltaFatta ? sceltaFatta === risposta ? "#3B6D11" : "#A32D2D" : "var(--color-border-tertiary)"),
+      borderRadius: 12,
+      marginBottom: "1.25rem",
+      background: sceltaFatta ? sceltaFatta === risposta ? "#EAF3DE" : "#FCEBEB" : "var(--color-background-primary)",
+      transition: "all 0.2s"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 16,
+      lineHeight: 1.8
+    }
+  }, parti[0], /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: "inline-block",
+      minWidth: 100,
+      borderBottom: "2px solid ".concat(sceltaFatta ? sceltaFatta === risposta ? "#3B6D11" : "#A32D2D" : "#2D6BE4"),
+      textAlign: "center",
+      fontWeight: 600,
+      color: sceltaFatta ? sceltaFatta === risposta ? "#3B6D11" : "#A32D2D" : "#2D6BE4",
+      padding: "0 8px",
+      margin: "0 4px",
+      fontSize: 16
+    }
+  }, sceltaFatta || "?"), parti[1]), sceltaFatta && sceltaFatta !== risposta && /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      color: "#A32D2D",
+      marginTop: 8
+    }
+  }, "La parola giusta era: ", /*#__PURE__*/React.createElement("strong", null, risposta)));
+}
+function GiocoCompletamento(_ref9) {
+  var testo = _ref9.testo,
+    onEsci = _ref9.onEsci;
+  var _useState69 = useState("intro"),
+    _useState70 = _slicedToArray(_useState69, 2),
+    fase = _useState70[0],
+    setFase = _useState70[1];
+  var _useState71 = useState([]),
+    _useState72 = _slicedToArray(_useState71, 2),
+    esercizi = _useState72[0],
+    setEsercizi = _useState72[1];
+  var _useState73 = useState(0),
+    _useState74 = _slicedToArray(_useState73, 2),
+    idx = _useState74[0],
+    setIdx = _useState74[1];
+  var _useState75 = useState([]),
+    _useState76 = _slicedToArray(_useState75, 2),
+    risposte = _useState76[0],
+    setRisposte = _useState76[1];
+  var _useState77 = useState(null),
+    _useState78 = _slicedToArray(_useState77, 2),
+    sceltaFatta = _useState78[0],
+    setSceltaFatta = _useState78[1];
+  var _useState79 = useState([]),
+    _useState80 = _slicedToArray(_useState79, 2),
+    parole = _useState80[0],
+    setParole = _useState80[1];
+  var _useState81 = useState(false),
+    _useState82 = _slicedToArray(_useState81, 2),
+    loading = _useState82[0],
+    setLoading = _useState82[1];
+  var _useState83 = useState(null),
+    _useState84 = _slicedToArray(_useState83, 2),
+    errore = _useState84[0],
+    setErrore = _useState84[1];
+  var frasi = ["I Fenici preparano le frasi...", "Le parole vengono selezionate...", "L'alfabeto fenicio entra in gioco...", "I mercanti controllano le tavolette...", "Le frasi stanno per arrivare..."];
+  var avvia = function avvia() {
+    setLoading(true);
+    setErrore(null);
+    generaEsercizi(testo).then(function (d) {
+      var eserc = (d.esercizi || []).sort(function () {
+        return Math.random() - 0.5;
+      }).slice(0, 6);
+      setEsercizi(eserc);
+      setIdx(0);
+      setRisposte([]);
+      setSceltaFatta(null);
+      prepParole(eserc[0]);
+      setFase("gioco");
+      setLoading(false);
+    }).catch(function (e) {
+      setErrore(e.message);
+      setLoading(false);
+    });
+  };
+  var prepParole = function prepParole(esercizio) {
+    var tutte = [esercizio.risposta].concat(_toConsumableArray(esercizio.distrattori)).sort(function () {
+      return Math.random() - 0.5;
+    });
+    setParole(tutte);
+  };
+  var scegli = function scegli(parola) {
+    if (sceltaFatta) return;
+    setSceltaFatta(parola);
+    setRisposte([].concat(_toConsumableArray(risposte), [{
+      esercizio: esercizi[idx],
+      scelta: parola
+    }]));
+  };
+  var prossima = function prossima() {
+    var prossIdx = idx + 1;
+    if (prossIdx < esercizi.length) {
+      setIdx(prossIdx);
+      setSceltaFatta(null);
+      prepParole(esercizi[prossIdx]);
+    } else {
+      setFase("risultati");
+    }
+  };
+  var corrette = risposte.filter(function (r) {
+    return r.scelta === r.esercizio.risposta;
+  }).length;
+  var esercizioAttuale = esercizi[idx];
+  var progresso = esercizi.length > 0 ? (idx + (sceltaFatta ? 1 : 0)) / esercizi.length * 100 : 0;
+  var s = {
+    wrap: {
+      fontFamily: "system-ui, sans-serif",
+      maxWidth: 480,
+      margin: "0 auto",
+      padding: "1.5rem 1rem"
+    },
+    btnPrimary: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer"
+    },
+    btnSecondary: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "0.5px solid var(--color-border-secondary)",
+      background: "var(--color-background-primary)",
+      color: "var(--color-text-primary)",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer",
+      marginTop: 10
+    }
+  };
+  if (fase === "intro") return /*#__PURE__*/React.createElement("div", {
+    style: s.wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 11,
+      fontWeight: 500,
+      color: "#aaa",
+      letterSpacing: "0.07em",
+      textTransform: "uppercase",
+      marginBottom: 4
+    }
+  }, "Storia \xB7 I Fenici"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 22,
+      fontWeight: 500,
+      marginBottom: 8
+    }
+  }, "Completa le frasi"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "var(--color-text-secondary)",
+      marginBottom: "1.5rem",
+      lineHeight: 1.6
+    }
+  }, "Ogni frase ha una parola mancante. Scegli la parola giusta tra le 8 disponibili. Le frasi cambiano ogni volta."), errore && /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "10px 14px",
+      borderRadius: 8,
+      marginBottom: "1rem",
+      background: "#FCEBEB",
+      fontSize: 13,
+      color: "#A32D2D"
+    }
+  }, "Errore: ", errore), loading ? /*#__PURE__*/React.createElement(Loader, {
+    frasi: frasi
+  }) : /*#__PURE__*/React.createElement("button", {
+    style: s.btnPrimary,
+    onClick: avvia
+  }, errore ? "Riprova" : "Inizia"));
+  if (fase === "gioco" && esercizioAttuale) return /*#__PURE__*/React.createElement("div", {
+    style: s.wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      marginBottom: 10,
+      fontSize: 12,
+      color: "#aaa"
+    }
+  }, /*#__PURE__*/React.createElement("span", null, idx + 1, " / ", esercizi.length), /*#__PURE__*/React.createElement("span", null, "Completa le frasi")), /*#__PURE__*/React.createElement(BarraProgresso, {
+    valore: progresso
+  }), /*#__PURE__*/React.createElement(FraseConSpazio, {
+    frase: esercizioAttuale.frase,
+    risposta: esercizioAttuale.risposta,
+    paroleDisponibili: parole,
+    onScelta: scegli,
+    sceltaFatta: sceltaFatta
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginBottom: "1rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      color: "#aaa",
+      marginBottom: 8
+    }
+  }, "Scegli la parola giusta:"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 8
+    }
+  }, parole.map(function (p) {
+    var isCorretta = sceltaFatta && p === esercizioAttuale.risposta;
+    var isSceltaSbagliata = sceltaFatta === p && p !== esercizioAttuale.risposta;
+    return /*#__PURE__*/React.createElement("button", {
+      key: p,
+      onClick: function onClick() {
+        return scegli(p);
+      },
+      style: {
+        padding: "8px 16px",
+        borderRadius: 20,
+        border: isCorretta ? "1.5px solid #3B6D11" : isSceltaSbagliata ? "1.5px solid #A32D2D" : "0.5px solid var(--color-border-secondary)",
+        background: isCorretta ? "#EAF3DE" : isSceltaSbagliata ? "#FCEBEB" : "var(--color-background-primary)",
+        color: isCorretta ? "#3B6D11" : isSceltaSbagliata ? "#A32D2D" : "var(--color-text-primary)",
+        fontSize: 14,
+        fontWeight: 500,
+        cursor: sceltaFatta ? "default" : "pointer",
+        transition: "all 0.15s",
+        opacity: sceltaFatta && !isCorretta && !isSceltaSbagliata ? 0.4 : 1
+      }
+    }, p);
+  }))), sceltaFatta && /*#__PURE__*/React.createElement("button", {
+    style: s.btnPrimary,
+    onClick: prossima
+  }, idx + 1 < esercizi.length ? "Prossima frase" : "Vedi risultati"));
+  if (fase === "risultati") {
+    var pct = Math.round(corrette / esercizi.length * 100);
+    var msg = pct >= 80 ? "Ottimo lavoro!" : pct >= 50 ? "Quasi! Ripassaci sopra." : "Riprova ancora!";
+    return /*#__PURE__*/React.createElement("div", {
+      style: s.wrap
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 11,
+        fontWeight: 500,
+        color: "#aaa",
+        letterSpacing: "0.07em",
+        textTransform: "uppercase",
+        marginBottom: 4
+      }
+    }, "Storia \xB7 I Fenici"), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 22,
+        fontWeight: 500,
+        marginBottom: 8
+      }
+    }, msg), /*#__PURE__*/React.createElement("div", {
+      style: {
+        padding: "1.5rem",
+        border: "0.5px solid var(--color-border-tertiary)",
+        borderRadius: 12,
+        marginBottom: "1.5rem",
+        textAlign: "center"
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 48,
+        fontWeight: 500,
+        color: "#2D6BE4"
+      }
+    }, corrette, "/", esercizi.length), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 14,
+        color: "#aaa",
+        marginTop: 4
+      }
+    }, "frasi completate correttamente")), /*#__PURE__*/React.createElement("div", {
+      style: {
+        display: "flex",
+        flexDirection: "column",
+        gap: 8,
+        marginBottom: "1.5rem"
+      }
+    }, risposte.map(function (r, i) {
+      var ok = r.scelta === r.esercizio.risposta;
+      var frasiMostrate = r.esercizio.frase.replace("___", "[".concat(r.esercizio.risposta, "]"));
+      return /*#__PURE__*/React.createElement("div", {
+        key: i,
+        style: {
+          padding: "10px 14px",
+          borderRadius: 8,
+          background: ok ? "#EAF3DE" : "#FCEBEB",
+          fontSize: 13,
+          color: ok ? "#3B6D11" : "#A32D2D",
+          lineHeight: 1.5
+        }
+      }, frasiMostrate, !ok && /*#__PURE__*/React.createElement("div", {
+        style: {
+          fontSize: 12,
+          marginTop: 4,
+          opacity: 0.8
+        }
+      }, "Hai risposto: ", r.scelta));
+    })), /*#__PURE__*/React.createElement("button", {
+      style: s.btnPrimary,
+      onClick: avvia
+    }, "Gioca ancora con nuove frasi"), /*#__PURE__*/React.createElement("button", {
+      style: s.btnSecondary,
+      onClick: function onClick() {
+        return setFase("intro");
+      }
+    }, "Torna all'inizio"));
+  }
+  return null;
+}
+
+// ---- ANAGRAMMI ----
+var PAROLE_CIVITA = {
+  fenici: [{
+    parola: "porpora",
+    def: "Il colore dei re fenici",
+    indizio: "Colorante rosso ricavato da un mollusco"
+  }, {
+    parola: "murice",
+    def: "Da qui veniva un'invenzione dei Fenici",
+    indizio: "Il mollusco da cui si ricavava la porpora"
+  }, {
+    parola: "chiglia",
+    def: "I Fenici l'inventarono per navigare meglio",
+    indizio: "L'asse centrale che rendeva stabile la nave"
+  }, {
+    parola: "ancora",
+    def: "Grazie a questa le navi fenici non andavano alla deriva",
+    indizio: "Serviva a fermare la nave sul fondo del mare"
+  }, {
+    parola: "timone",
+    def: "I Fenici la inventarono per guidare le navi",
+    indizio: "Permetteva di cambiare direzione in mare"
+  }, {
+    parola: "rostro",
+    def: "Le navi da guerra fenici la usavano per attaccare",
+    indizio: "La punta metallica che sfondava le navi nemiche"
+  }, {
+    parola: "soffiatura",
+    def: "I Fenici migliorarono la lavorazione del vetro con questa tecnica",
+    indizio: "Permetteva di ottenere oggetti vuoti in vetro"
+  }, {
+    parola: "empori",
+    def: "Da qui nascevano le colonie fenicie",
+    indizio: "I luoghi di scalo lungo le rotte commerciali"
+  }, {
+    parola: "Cartagine",
+    def: "La più famosa colonia fenicia",
+    indizio: "Si trova nell'attuale Tunisia, in Africa"
+  }, {
+    parola: "alfabeto",
+    def: "I Fenici lo inventarono, noi lo usiamo ancora",
+    indizio: "Un sistema di 22 consonanti per scrivere"
+  }, {
+    parola: "saline",
+    def: "Un'invenzione fenicia per conservare i cibi",
+    indizio: "Da qui si ricavava il sale"
+  }, {
+    parola: "baratto",
+    def: "Prima della moneta, i Fenici usavano questo",
+    indizio: "Scambiare una merce con un'altra"
+  }, {
+    parola: "cedro",
+    def: "Il legno preferito dai costruttori di navi fenici",
+    indizio: "Resistente all'acqua salata, cresceva sui monti fenici"
+  }, {
+    parola: "tofet",
+    def: "Il luogo sacro dove i Fenici pregavano",
+    indizio: "Il nome dei santuari fenici all'aperto"
+  }],
+  cina: [{
+    parola: "mandarini",
+    def: "Funzionari che governavano i regni cinesi",
+    indizio: "Scelti tra le famiglie nobili di proprietari terrieri"
+  }, {
+    parola: "ideogrammi",
+    def: "Il sistema di scrittura dei Cinesi",
+    indizio: "Segni che rappresentavano un oggetto, un'idea o un'azione"
+  }, {
+    parola: "pittogrammi",
+    def: "La prima scrittura usata dai Cinesi",
+    indizio: "Disegni stilizzati che rappresentavano oggetti"
+  }, {
+    parola: "bussola",
+    def: "Un'invenzione cinese per orientarsi",
+    indizio: "Inventata nel 239 a.C., prima usata come gioco"
+  }, {
+    parola: "agopuntura",
+    def: "Una tecnica medica cinese",
+    indizio: "Usava aghi sottilissimi per sbloccare l'energia vitale"
+  }, {
+    parola: "bronzo",
+    def: "Una lega che i Cinesi sapevano produrre",
+    indizio: "Ottenuto fondendo rame e stagno"
+  }, {
+    parola: "seta",
+    def: "Il prodotto cinese più richiesto nel mondo",
+    indizio: "Ricavata dai bachi da seta, sconosciuta agli altri popoli"
+  }, {
+    parola: "taoismo",
+    def: "Una religione fondata in Cina",
+    indizio: "Fondata da Lao Tse tra il 570 e il 470 a.C."
+  }, {
+    parola: "dinastie",
+    def: "Il periodo in cui i regni cinesi si tramandavano in famiglia",
+    indizio: "Il regno passava dal re al figlio"
+  }, {
+    parola: "clan",
+    def: "Le prime comunità in cui si organizzarono i Cinesi",
+    indizio: "Villaggi formati da famiglie legate tra loro"
+  }],
+  maya: [{
+    parola: "glifi",
+    def: "Il sistema di scrittura dei Maya",
+    indizio: "Segni che rappresentavano oggetti o sillabe"
+  }, {
+    parola: "Codici",
+    def: "I libri realizzati dai Maya",
+    indizio: "Ne rimangono solo tre dopo il 1562 d.C."
+  }, {
+    parola: "cacao",
+    def: "Un prodotto agricolo coltivato dai Maya",
+    indizio: "Da qui si ricava il cioccolato"
+  }, {
+    parola: "piramidi",
+    def: "Le costruzioni più famose dei Maya",
+    indizio: "A gradoni con un santuario sulla sommità"
+  }, {
+    parola: "Yucatan",
+    def: "La penisola dove si sviluppò la civiltà Maya",
+    indizio: "Ricca di pozzi naturali di acqua dolce"
+  }, {
+    parola: "Itzamna",
+    def: "Il dio del cielo dei Maya",
+    indizio: "La divinità più importante del pantheon maya"
+  }, {
+    parola: "agave",
+    def: "Una pianta usata dai Maya per fare abiti",
+    indizio: "Le sue foglie erano usate nella tessitura"
+  }, {
+    parola: "calendario",
+    def: "Un'invenzione dei Maya per misurare il tempo",
+    indizio: "Calcolarono che un anno ha 365,242 giorni"
+  }],
+  vallindi: [{
+    parola: "Harappa",
+    def: "Una delle grandi città dei Vallindi",
+    indizio: "Scoperta più di un secolo fa sul fiume Indo"
+  }, {
+    parola: "sigilli",
+    def: "I Vallindi li usavano per marcare i loro prodotti",
+    indizio: "In terracotta con simboli incisi"
+  }, {
+    parola: "Lothal",
+    def: "Una città dei Vallindi sulla costa",
+    indizio: "Scoperta nel 1954, era un fiorente porto commerciale"
+  }, {
+    parola: "cotone",
+    def: "Una pianta da cui i Vallindi ricavavano tessuti",
+    indizio: "Con la sua fibra realizzavano stoffe"
+  }, {
+    parola: "pittografica",
+    def: "Il tipo di scrittura dei Vallindi",
+    indizio: "Il segno riproduceva l'oggetto che rappresentava"
+  }, {
+    parola: "vasellame",
+    def: "Un prodotto artigianale dei Vallindi",
+    indizio: "Oggetti in ceramica realizzati dagli artigiani"
+  }, {
+    parola: "Indo",
+    def: "Il fiume intorno a cui vivevano i Vallindi",
+    indizio: "La civiltà prese il nome da questo fiume"
+  }, {
+    parola: "fognature",
+    def: "Un'opera ingegneristica delle città vallindi",
+    indizio: "Reti sotterranee per lo scarico delle acque"
+  }]
+};
+function selezionaParolePerTesto(testo) {
+  var n = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 8;
+  // Determina quali civiltà sono nel testo e pesca parole proporzionalmente
+  var civita = [];
+  if (testo.includes("FENICI") || testo.includes("Fenici")) civita.push("fenici");
+  if (testo.includes("CINESE") || testo.includes("Cinesi") || testo.includes("Cina")) civita.push("cina");
+  if (testo.includes("MAYA") || testo.includes("Maya")) civita.push("maya");
+  if (testo.includes("VALLINDI") || testo.includes("Vallindi")) civita.push("vallindi");
+  if (civita.length === 0) civita.push("fenici");
+
+  // Pesca parole da ogni civiltà in modo bilanciato
+  var perCivita = Math.ceil(n / civita.length);
+  var tutte = [];
+  civita.forEach(function (c) {
+    var pool = PAROLE_CIVITA[c] || [];
+    var sel = _toConsumableArray(pool).sort(function () {
+      return Math.random() - 0.5;
+    }).slice(0, perCivita);
+    tutte = tutte.concat(sel);
+  });
+  return tutte.sort(function () {
+    return Math.random() - 0.5;
+  }).slice(0, n).map(function (p, i) {
+    return _objectSpread(_objectSpread({}, p), {}, {
+      lettereDisp: mescola(p.parola).split("").map(function (l, idx) {
+        return {
+          id: "l_".concat(i, "_").concat(idx),
+          lettera: l
+        };
+      })
+    });
+  });
+}
+function mescola(parola) {
+  var arr = parola.split("");
+  for (var i = arr.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var _ref0 = [arr[j], arr[i]];
+    arr[i] = _ref0[0];
+    arr[j] = _ref0[1];
+  }
+  var r = arr.join("");
+  if (r.toLowerCase() === parola.toLowerCase() && parola.length > 2) return mescola(parola);
+  return r;
+}
+function seleziona() {
+  var n = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 8;
+  var uniche = _toConsumableArray(new Map(PAROLE_FENICI.map(function (p) {
+    return [p.parola.toLowerCase(), p];
+  })).values());
+  return uniche.filter(function (p) {
+    return p.parola.length >= 5;
+  }).sort(function () {
+    return Math.random() - 0.5;
+  }).slice(0, n).map(function (p) {
+    return _objectSpread(_objectSpread({}, p), {}, {
+      lettereDisp: mescola(p.parola).split("").map(function (l, i) {
+        return {
+          id: "l_".concat(i),
+          lettera: l
+        };
+      })
+    });
+  });
+}
+function GiocoAnagrammi(_ref1) {
+  var _ref1$testo = _ref1.testo,
+    testo = _ref1$testo === void 0 ? "" : _ref1$testo,
+    onEsci = _ref1.onEsci;
+  var _useState85 = useState("intro"),
+    _useState86 = _slicedToArray(_useState85, 2),
+    fase = _useState86[0],
+    setFase = _useState86[1];
+  var _useState87 = useState([]),
+    _useState88 = _slicedToArray(_useState87, 2),
+    parole = _useState88[0],
+    setParole = _useState88[1];
+  var _useState89 = useState(0),
+    _useState90 = _slicedToArray(_useState89, 2),
+    idx = _useState90[0],
+    setIdx = _useState90[1];
+  var _useState91 = useState([]),
+    _useState92 = _slicedToArray(_useState91, 2),
+    slots = _useState92[0],
+    setSlots = _useState92[1]; // array di {id, lettera} | null
+  var _useState93 = useState([]),
+    _useState94 = _slicedToArray(_useState93, 2),
+    disponibili = _useState94[0],
+    setDisponibili = _useState94[1]; // lettere non ancora piazzate
+  var _useState95 = useState(null),
+    _useState96 = _slicedToArray(_useState95, 2),
+    stato = _useState96[0],
+    setStato = _useState96[1]; // null | "corretto" | "sbagliato"
+  var _useState97 = useState([]),
+    _useState98 = _slicedToArray(_useState97, 2),
+    risposte = _useState98[0],
+    setRisposte = _useState98[1];
+  var _useState99 = useState(0),
+    _useState100 = _slicedToArray(_useState99, 2),
+    tentativi = _useState100[0],
+    setTentativi = _useState100[1];
+  var _useState101 = useState(false),
+    _useState102 = _slicedToArray(_useState101, 2),
+    mostraIndizio = _useState102[0],
+    setMostraIndizio = _useState102[1];
+  var _useState103 = useState(null),
+    _useState104 = _slicedToArray(_useState103, 2),
+    dragId = _useState104[0],
+    setDragId = _useState104[1];
+  var _useState105 = useState(null),
+    _useState106 = _slicedToArray(_useState105, 2),
+    dragSource = _useState106[0],
+    setDragSource = _useState106[1]; // "disponibili" | slotIndex
+
+  var voce = parole[idx];
+  var progresso = parole.length > 0 ? (idx + (stato === "corretto" ? 1 : 0)) / parole.length * 100 : 0;
+  var risolti = risposte.filter(function (r) {
+    return r.risolto;
+  }).length;
+  var avvia = function avvia() {
+    var sel = selezionaParolePerTesto(testo, 8);
+    setParole(sel);
+    setIdx(0);
+    setRisposte([]);
+    setStato(null);
+    setMostraIndizio(false);
+    setTentativi(0);
+    initParola(sel[0]);
+    setFase("gioco");
+  };
+  var initParola = function initParola(v) {
+    setSlots(Array(v.parola.length).fill(null));
+    setDisponibili(_toConsumableArray(v.lettereDisp));
+    setStato(null);
+    setMostraIndizio(false);
+    setTentativi(0);
+  };
+
+  // Drag da disponibili a slot
+  var onDragStartDisp = function onDragStartDisp(id) {
+    setDragId(id);
+    setDragSource("disponibili");
+  };
+  var onDragStartSlot = function onDragStartSlot(slotIdx) {
+    setDragId(null);
+    setDragSource(slotIdx);
+  };
+  var onDropSlot = function onDropSlot(slotIdx) {
+    if (stato === "corretto") return;
+    if (dragSource === "disponibili" && dragId) {
+      var lettera = disponibili.find(function (l) {
+        return l.id === dragId;
+      });
+      if (!lettera) return;
+      var nuoviSlots = _toConsumableArray(slots);
+      var vecchio = nuoviSlots[slotIdx];
+      nuoviSlots[slotIdx] = lettera;
+      var nuoviDisp = disponibili.filter(function (l) {
+        return l.id !== dragId;
+      });
+      if (vecchio) nuoviDisp.push(vecchio);
+      setSlots(nuoviSlots);
+      setDisponibili(nuoviDisp);
+    } else if (typeof dragSource === "number" && dragSource !== slotIdx) {
+      var _nuoviSlots = _toConsumableArray(slots);
+      var tmp = _nuoviSlots[slotIdx];
+      _nuoviSlots[slotIdx] = _nuoviSlots[dragSource];
+      _nuoviSlots[dragSource] = tmp;
+      setSlots(_nuoviSlots);
+    }
+    setDragId(null);
+    setDragSource(null);
+  };
+  var onDropDisp = function onDropDisp() {
+    if (stato === "corretto") return;
+    if (typeof dragSource === "number") {
+      var lettera = slots[dragSource];
+      if (!lettera) return;
+      var nuoviSlots = _toConsumableArray(slots);
+      nuoviSlots[dragSource] = null;
+      setSlots(nuoviSlots);
+      setDisponibili([].concat(_toConsumableArray(disponibili), [lettera]));
+    }
+    setDragId(null);
+    setDragSource(null);
+  };
+  var rimuoviDaSlot = function rimuoviDaSlot(slotIdx) {
+    if (stato === "corretto" || !slots[slotIdx]) return;
+    var lettera = slots[slotIdx];
+    var nuoviSlots = _toConsumableArray(slots);
+    nuoviSlots[slotIdx] = null;
+    setSlots(nuoviSlots);
+    setDisponibili([].concat(_toConsumableArray(disponibili), [lettera]));
+  };
+  var verifica = function verifica() {
+    if (stato === "corretto" || slots.some(function (s) {
+      return s === null;
+    })) return;
+    var tentativo = slots.map(function (s) {
+      return s.lettera;
+    }).join("").toLowerCase();
+    var corretta = voce.parola.toLowerCase();
+    var nuoviTentativi = tentativi + 1;
+    setTentativi(nuoviTentativi);
+    if (tentativo === corretta) {
+      setStato("corretto");
+      setRisposte([].concat(_toConsumableArray(risposte), [{
+        voce: voce,
+        risolto: true,
+        tentativi: nuoviTentativi
+      }]));
+    } else {
+      setStato("sbagliato");
+      setTimeout(function () {
+        return setStato(null);
+      }, 900);
+    }
+  };
+  var suggerimento = function suggerimento() {
+    if (stato === "corretto" || !voce) return;
+    var parolaCorretta = voce.parola;
+    // Trova la prima posizione vuota o sbagliata
+    var _loop = function _loop() {
+        var letCorretta = parolaCorretta[i].toLowerCase();
+        if (!slots[i] || slots[i].lettera.toLowerCase() !== letCorretta) {
+          // Trova quella lettera nei disponibili
+          var trovata = disponibili.find(function (l) {
+            return l.lettera.toLowerCase() === letCorretta;
+          });
+          if (trovata) {
+            var nuoviSlots = _toConsumableArray(slots);
+            var vecchio = nuoviSlots[i];
+            nuoviSlots[i] = trovata;
+            var nuoviDisp = disponibili.filter(function (l) {
+              return l.id !== trovata.id;
+            });
+            if (vecchio) nuoviDisp.push(vecchio);
+            setSlots(nuoviSlots);
+            setDisponibili(nuoviDisp);
+          }
+          return {
+            v: void 0
+          };
+        }
+      },
+      _ret;
+    for (var i = 0; i < parolaCorretta.length; i++) {
+      _ret = _loop();
+      if (_ret) return _ret.v;
+    }
+  };
+  var salta = function salta() {
+    setRisposte([].concat(_toConsumableArray(risposte), [{
+      voce: voce,
+      risolto: false,
+      tentativi: tentativi
+    }]));
+    prossima();
+  };
+  var prossima = function prossima() {
+    var prossIdx = idx + 1;
+    if (prossIdx < parole.length) {
+      setIdx(prossIdx);
+      initParola(parole[prossIdx]);
+    } else setFase("risultati");
+  };
+
+  // Supporto tastiera
+  useEffect(function () {
+    var handler = function handler(e) {
+      if (fase !== "gioco" || stato === "corretto" || !voce) return;
+      if (e.key === "Enter") {
+        verifica();
+        return;
+      }
+      if (e.key === "Backspace") {
+        // Rimuovi l'ultima lettera piazzata
+        for (var i = slots.length - 1; i >= 0; i--) {
+          if (slots[i]) {
+            rimuoviDaSlot(i);
+            return;
+          }
+        }
+        return;
+      }
+      if (e.key.length === 1 && /[a-zA-ZàèéìòùÀÈÉÌÒÙ]/.test(e.key)) {
+        var trovata = disponibili.find(function (l) {
+          return l.lettera.toLowerCase() === e.key.toLowerCase();
+        });
+        if (!trovata) return;
+        var primoSlotVuoto = slots.findIndex(function (s) {
+          return s === null;
+        });
+        if (primoSlotVuoto === -1) return;
+        var nuoviSlots = _toConsumableArray(slots);
+        nuoviSlots[primoSlotVuoto] = trovata;
+        setSlots(nuoviSlots);
+        setDisponibili(disponibili.filter(function (l) {
+          return l.id !== trovata.id;
+        }));
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return function () {
+      return window.removeEventListener("keydown", handler);
+    };
+  }, [fase, stato, voce, slots, disponibili]);
+  var s = {
+    wrap: {
+      fontFamily: "system-ui, sans-serif",
+      maxWidth: 480,
+      margin: "0 auto",
+      padding: "1.5rem 1rem"
+    },
+    btnPrimary: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer"
+    },
+    btnSecondary: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "0.5px solid var(--color-border-secondary)",
+      background: "var(--color-background-primary)",
+      color: "var(--color-text-primary)",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer",
+      marginTop: 10
+    }
+  };
+  if (fase === "intro") return /*#__PURE__*/React.createElement("div", {
+    style: s.wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 11,
+      fontWeight: 500,
+      color: "#aaa",
+      letterSpacing: "0.07em",
+      textTransform: "uppercase",
+      marginBottom: 4
+    }
+  }, "Storia \xB7 I Fenici"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 22,
+      fontWeight: 500,
+      marginBottom: 8
+    }
+  }, "Anagrammi"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "var(--color-text-secondary)",
+      marginBottom: "1.5rem",
+      lineHeight: 1.6
+    }
+  }, "Le lettere di una parola sono state mescolate. Trascinale negli slot giusti o digita sulla tastiera. Puoi anche cliccare su una lettera gi\xE0 piazzata per rimetterla tra quelle disponibili."), /*#__PURE__*/React.createElement("button", {
+    style: s.btnPrimary,
+    onClick: avvia
+  }, "Inizia"));
+  if (fase === "gioco" && voce) return /*#__PURE__*/React.createElement("div", {
+    style: s.wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      marginBottom: 10,
+      fontSize: 12,
+      color: "#aaa"
+    }
+  }, /*#__PURE__*/React.createElement("span", null, idx + 1, " / ", parole.length), /*#__PURE__*/React.createElement("span", null, "Anagrammi")), /*#__PURE__*/React.createElement(BarraProgresso, {
+    valore: progresso
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1.25rem",
+      borderRadius: 12,
+      marginBottom: "1rem",
+      border: "1.5px solid ".concat(stato === "corretto" ? "#3B6D11" : stato === "sbagliato" ? "#A32D2D" : "var(--color-border-secondary)"),
+      background: stato === "corretto" ? "#EAF3DE" : stato === "sbagliato" ? "#FCEBEB" : "var(--color-background-primary)",
+      transition: "all 0.2s",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 6,
+      flexWrap: "wrap",
+      justifyContent: "center"
+    }
+  }, slots.map(function (slot, i) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      onDragOver: function onDragOver(e) {
+        return e.preventDefault();
+      },
+      onDrop: function onDrop() {
+        return onDropSlot(i);
+      },
+      onClick: function onClick() {
+        return rimuoviDaSlot(i);
+      },
+      style: {
+        width: 38,
+        height: 42,
+        borderRadius: 7,
+        border: "1.5px ".concat(slot ? 'solid' : 'dashed', " ").concat(stato === "corretto" ? "#3B6D11" : stato === "sbagliato" ? "#A32D2D" : slot ? "#2D6BE4" : "#bbb"),
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: 20,
+        fontWeight: 700,
+        textTransform: "uppercase",
+        color: stato === "corretto" ? "#3B6D11" : stato === "sbagliato" ? "#A32D2D" : slot ? "#2D6BE4" : "#ddd",
+        background: stato === "corretto" ? "#EAF3DE" : stato === "sbagliato" ? "#FCEBEB" : slot ? "#EEF4FF" : "transparent",
+        cursor: slot && stato !== "corretto" ? "pointer" : "default",
+        transition: "all 0.15s",
+        userSelect: "none"
+      },
+      draggable: !!slot && stato !== "corretto",
+      onDragStart: function onDragStart() {
+        if (slot) onDragStartSlot(i);
+      }
+    }, (slot === null || slot === void 0 ? void 0 : slot.lettera) || "");
+  })), stato === "corretto" && /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      color: "#3B6D11",
+      fontWeight: 500
+    }
+  }, "Esatto! \uD83C\uDF89"), stato === "sbagliato" && /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      color: "#A32D2D"
+    }
+  }, "Non \xE8 corretto, riprova")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "8px 12px",
+      borderRadius: 8,
+      marginBottom: "1rem",
+      background: "var(--color-background-secondary)",
+      fontSize: 13,
+      color: "var(--color-text-secondary)",
+      lineHeight: 1.5
+    }
+  }, voce.def, mostraIndizio && /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontStyle: "italic",
+      marginTop: 4
+    }
+  }, "\uD83D\uDCA1 ", voce.indizio)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginBottom: "1rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      color: "#aaa",
+      marginBottom: 8
+    }
+  }, "Trascina le lettere negli slot, oppure digita sulla tastiera:"), /*#__PURE__*/React.createElement("div", {
+    onDragOver: function onDragOver(e) {
+      return e.preventDefault();
+    },
+    onDrop: onDropDisp,
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 8,
+      justifyContent: "center",
+      minHeight: 54,
+      padding: "6px",
+      borderRadius: 8,
+      border: "0.5px dashed var(--color-border-tertiary)"
+    }
+  }, disponibili.length === 0 && /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 12,
+      color: "#ccc",
+      alignSelf: "center"
+    }
+  }, "Tutte le lettere sono piazzate"), disponibili.map(function (l) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: l.id,
+      draggable: true,
+      onDragStart: function onDragStart() {
+        return onDragStartDisp(l.id);
+      },
+      style: {
+        width: 44,
+        height: 44,
+        borderRadius: 8,
+        border: "1.5px solid var(--color-border-secondary)",
+        background: "var(--color-background-primary)",
+        color: "var(--color-text-primary)",
+        fontSize: 18,
+        fontWeight: 700,
+        textTransform: "uppercase",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        cursor: "grab",
+        userSelect: "none",
+        boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
+        transition: "all 0.15s"
+      }
+    }, l.lettera);
+  }))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 8,
+      marginBottom: stato === "corretto" ? "1rem" : 0
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      if (stato !== "corretto") {
+        setSlots(Array(voce.parola.length).fill(null));
+        setDisponibili(_toConsumableArray(voce.lettereDisp));
+      }
+    },
+    disabled: stato === "corretto",
+    style: {
+      flex: 1,
+      padding: "10px",
+      borderRadius: 8,
+      border: "0.5px solid var(--color-border-secondary)",
+      background: "var(--color-background-primary)",
+      color: "var(--color-text-primary)",
+      fontSize: 14,
+      cursor: stato === "corretto" ? "default" : "pointer",
+      opacity: stato === "corretto" ? 0.4 : 1
+    }
+  }, "Azzera"), /*#__PURE__*/React.createElement("button", {
+    onClick: verifica,
+    disabled: slots.some(function (s) {
+      return s === null;
+    }) || stato === "corretto",
+    style: {
+      flex: 2,
+      padding: "10px",
+      borderRadius: 8,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 14,
+      fontWeight: 500,
+      cursor: slots.some(function (s) {
+        return s === null;
+      }) || stato === "corretto" ? "default" : "pointer",
+      opacity: slots.some(function (s) {
+        return s === null;
+      }) || stato === "corretto" ? 0.4 : 1
+    }
+  }, "Verifica \u21B5")), stato !== "corretto" && /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 8,
+      marginTop: 8
+    }
+  }, !mostraIndizio && /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      return setMostraIndizio(true);
+    },
+    style: {
+      flex: 1,
+      padding: "10px",
+      borderRadius: 8,
+      border: "0.5px solid var(--color-border-secondary)",
+      background: "var(--color-background-primary)",
+      color: "#aaa",
+      fontSize: 13,
+      cursor: "pointer"
+    }
+  }, "\uD83D\uDCA1 Indizio"), /*#__PURE__*/React.createElement("button", {
+    onClick: suggerimento,
+    style: {
+      flex: 1,
+      padding: "10px",
+      borderRadius: 8,
+      border: "0.5px solid var(--color-border-secondary)",
+      background: "var(--color-background-primary)",
+      color: "#aaa",
+      fontSize: 13,
+      cursor: "pointer"
+    }
+  }, "\u2726 Suggerimento"), /*#__PURE__*/React.createElement("button", {
+    onClick: salta,
+    style: {
+      flex: 1,
+      padding: "10px",
+      borderRadius: 8,
+      border: "0.5px solid var(--color-border-secondary)",
+      background: "var(--color-background-primary)",
+      color: "#aaa",
+      fontSize: 13,
+      cursor: "pointer"
+    }
+  }, "Salta \u2192")), stato === "corretto" && /*#__PURE__*/React.createElement("button", {
+    style: s.btnPrimary,
+    onClick: prossima
+  }, idx + 1 < parole.length ? "Prossima parola" : "Vedi risultati"));
+  if (fase === "risultati") return /*#__PURE__*/React.createElement("div", {
+    style: s.wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 11,
+      fontWeight: 500,
+      color: "#aaa",
+      letterSpacing: "0.07em",
+      textTransform: "uppercase",
+      marginBottom: 4
+    }
+  }, "Storia \xB7 I Fenici"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 22,
+      fontWeight: 500,
+      marginBottom: 8
+    }
+  }, risolti >= 6 ? "Ottimo lavoro!" : risolti >= 4 ? "Quasi!" : "Riprova ancora!"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1.5rem",
+      border: "0.5px solid var(--color-border-tertiary)",
+      borderRadius: 12,
+      marginBottom: "1.5rem",
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 48,
+      fontWeight: 500,
+      color: "#2D6BE4"
+    }
+  }, risolti, "/", parole.length), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "#aaa",
+      marginTop: 4
+    }
+  }, "parole indovinate")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8,
+      marginBottom: "1.5rem"
+    }
+  }, risposte.map(function (r, i) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      style: {
+        padding: "10px 14px",
+        borderRadius: 8,
+        background: r.risolto ? "#EAF3DE" : "#FCEBEB",
+        fontSize: 13,
+        color: r.risolto ? "#3B6D11" : "#A32D2D",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center"
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontWeight: 500,
+        textTransform: "uppercase",
+        letterSpacing: 2
+      }
+    }, r.voce.parola), /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontSize: 12,
+        opacity: 0.8
+      }
+    }, r.risolto ? "\u2713 ".concat(r.tentativi, " tentativ").concat(r.tentativi === 1 ? "o" : "i") : "saltata"));
+  })), /*#__PURE__*/React.createElement("button", {
+    style: s.btnPrimary,
+    onClick: avvia
+  }, "Gioca ancora con nuove parole"), /*#__PURE__*/React.createElement("button", {
+    style: s.btnSecondary,
+    onClick: function onClick() {
+      return setFase("intro");
+    }
+  }, "Torna all'inizio"));
+  return null;
+}
+
+// ---- TABELLONE ----
+var CASELLE = 24;
+
+// Livello di ogni casella (0=start, 23=end)
+var LIVELLI = Array.from({
+  length: CASELLE
+}, function (_, i) {
+  if (i === 0) return "start";
+  if (i === CASELLE - 1) return "end";
+  var r = (i * 7 + 3) % 10;
+  if (r < 4) return "verde";
+  if (r < 7) return "arancione";
+  return "rossa";
+});
+var C = {
+  verde: "#2E7D32",
+  arancione: "#C17A2A",
+  rossa: "#B71C1C",
+  start: "#0052CC",
+  end: "#6B21A8"
+};
+var BG = {
+  verde: "#D4EDBA",
+  arancione: "#FDE9C0",
+  rossa: "#FCCFCF",
+  start: "#DDEEFF",
+  end: "#EEE0FF"
+};
+var BORDER = {
+  verde: "#3B6D11",
+  arancione: "#C17A2A",
+  rossa: "#A32D2D",
+  start: "#0052CC",
+  end: "#6B21A8"
+};
+
+// Posizione (col, row) 0-indexed di ogni casella nel percorso orario
+var GRID_PATH = [[0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [5, 6], [4, 6], [3, 6], [2, 6], [1, 6], [0, 6], [0, 5], [0, 4], [0, 3], [0, 2], [0, 1]];
+
+// Centro geometrico di ogni casella (px relativi al board div)
+// celle 62px, gap 4px, border+padding board 4px
+var CELL_SZ = 62,
+  CELL_GAP = 4,
+  BOARD_PAD = 4;
+function cellCenter(idx) {
+  var _ref10 = GRID_PATH[idx] || [0, 0],
+    _ref11 = _slicedToArray(_ref10, 2),
+    col = _ref11[0],
+    row = _ref11[1];
+  return {
+    x: BOARD_PAD + col * (CELL_SZ + CELL_GAP) + CELL_SZ / 2,
+    y: BOARD_PAD + row * (CELL_SZ + CELL_GAP) + CELL_SZ / 2
+  };
+}
+
+// SVG birillo stile C (toy, linee morbide)
+function Birillo() {
+  return /*#__PURE__*/React.createElement("svg", {
+    width: "36",
+    height: "52",
+    viewBox: "0 0 48 68",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("radialGradient", {
+    id: "gBirillo",
+    cx: "35%",
+    cy: "28%",
+    r: "65%"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0%",
+    stopColor: "#D4001F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "100%",
+    stopColor: "#6E0010"
+  }))), /*#__PURE__*/React.createElement("ellipse", {
+    cx: "24",
+    cy: "63",
+    rx: "15",
+    ry: "4.5",
+    fill: "#4a0008",
+    opacity: ".4"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24 3 C29.5 3 33 7 33 12 C33 16.5 30.5 19 29 20.5 C27 22 25.5 22.5 24 22.5 C22.5 22.5 21 22 19 20.5 C17.5 19 15 16.5 15 12 C15 7 18.5 3 24 3Z",
+    fill: "url(#gBirillo)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M16 35 Q24 33 32 35 Q32 37 24 38 Q16 37 16 35Z",
+    fill: "rgba(255,255,255,0.22)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M19 22 C15 23.5 12 27 11 34 C10 41 11 52 13 57 C15 62 19 65 24 65 C29 65 33 62 35 57 C37 52 38 41 37 34 C36 27 33 23.5 29 22 C27 22 25.5 22.5 24 22.5 C22.5 22.5 21 22 19 22Z",
+    fill: "url(#gBirillo)"
+  }), /*#__PURE__*/React.createElement("ellipse", {
+    cx: "20",
+    cy: "9",
+    rx: "3.5",
+    ry: "2",
+    fill: "rgba(255,255,255,0.3)",
+    transform: "rotate(-20 20 9)"
+  }));
+}
+function generaDomandeTabellone(_x0) {
+  return _generaDomandeTabellone.apply(this, arguments);
+}
+function _generaDomandeTabellone() {
+  _generaDomandeTabellone = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee7(testo) {
+    var _parsed$domande;
+    var prompt, res, data, raw, s, e, parsed;
+    return _regenerator().w(function (_context7) {
+      while (1) switch (_context7.n) {
+        case 0:
+          prompt = "Dal seguente testo di storia per la quarta elementare, genera esattamente 20 domande varie per bambini di 9 anni. Le domande devono essere dirette e semplici. Assegna a ciascuna un livello: \"verde\" (4 opzioni), \"arancione\" (2 opzioni), \"rossa\" (risposta di UNA sola parola presente nel testo). REGOLA FONDAMENTALE per le domande rosse: la forma della domanda deve corrispondere esattamente al tipo di risposta. Se la risposta \xE8 un luogo, usa \"Dove...\" o \"In quale paese/citt\xE0...\". Se la risposta \xE8 un oggetto o cosa, usa \"Come si chiama...\" o \"Come si chiamava...\". Se la risposta \xE8 un nome proprio, usa \"Come si chiamava...\". MAI usare \"Chi...\" se la risposta \xE8 un luogo o una cosa. MAI usare \"Dove...\" se la risposta \xE8 una persona. Esempi corretti: \"Come si chiama il colorante ricavato dal murice?\" \u2192 \"porpora\". \"Dove venne fondata Cartagine?\" \u2192 \"Tunisia\". \"Come si chiamavano i luoghi di scalo fenici?\" \u2192 \"empori\". \"Come si chiamava la moglie di El?\" \u2192 \"Balaat\". Usa solo vocabolario del testo. Italiano corretto. SOLO JSON senza backtick:\n{\"domande\":[{\"livello\":\"verde\",\"domanda\":\"...\",\"opzioni\":[\"A: ...\",\"B: ...\",\"C: ...\",\"D: ...\"],\"corretta\":\"A\"},{\"livello\":\"arancione\",\"domanda\":\"...\",\"opzioni\":[\"A: ...\",\"B: ...\"],\"corretta\":\"A\"},{\"livello\":\"rossa\",\"domanda\":\"...\",\"risposta\":\"...\"}]}\nTESTO:\n".concat(testo);
+          _context7.n = 1;
+          return fetch("/.netlify/functions/anthropic", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              model: "claude-sonnet-4-20250514",
+              max_tokens: 3000,
+              messages: [{
+                role: "user",
+                content: prompt
+              }]
+            })
+          });
+        case 1:
+          res = _context7.v;
+          if (res.ok) {
+            _context7.n = 2;
+            break;
+          }
+          throw new Error("Errore HTTP " + res.status);
+        case 2:
+          _context7.n = 3;
+          return res.json();
+        case 3:
+          data = _context7.v;
+          if (!data.error) {
+            _context7.n = 4;
+            break;
+          }
+          throw new Error(data.error.message);
+        case 4:
+          raw = data.content.map(function (i) {
+            return i.text || "";
+          }).join("").trim();
+          s = raw.indexOf("{");
+          e = raw.lastIndexOf("}");
+          if (!(s === -1 || e === -1)) {
+            _context7.n = 5;
+            break;
+          }
+          throw new Error("Risposta non valida");
+        case 5:
+          parsed = JSON.parse(raw.slice(s, e + 1));
+          if ((_parsed$domande = parsed.domande) !== null && _parsed$domande !== void 0 && _parsed$domande.length) {
+            _context7.n = 6;
+            break;
+          }
+          throw new Error("Nessuna domanda generata");
+        case 6:
+          return _context7.a(2, parsed.domande.sort(function () {
+            return Math.random() - 0.5;
+          }));
+      }
+    }, _callee7);
+  }));
+  return _generaDomandeTabellone.apply(this, arguments);
+}
+function AnimaDado(_ref12) {
+  var valore = _ref12.valore;
+  var facce = ["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
+  return /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 28
+    }
+  }, valore ? facce[valore - 1] : "🎲");
+}
+
+// Mappa (col, row) → indice casella per posizionare le celle nella griglia CSS
+var GRID_CELLS = GRID_PATH.map(function (_ref13, idx) {
+  var _ref14 = _slicedToArray(_ref13, 2),
+    col = _ref14[0],
+    row = _ref14[1];
+  return {
+    col: col + 1,
+    row: row + 1,
+    idx: idx
+  };
+});
+function TabelloneBoard(_ref15) {
+  var posizione = _ref15.posizione,
+    prossimaCasella = _ref15.prossimaCasella,
+    tiraDado = _ref15.tiraDado,
+    animaDado = _ref15.animaDado,
+    dadoValore = _ref15.dadoValore,
+    mostraDomanda = _ref15.mostraDomanda,
+    mostraRisultato = _ref15.mostraRisultato,
+    titolo = _ref15.titolo;
+  var FF = "'Bricolage Grotesque', system-ui, sans-serif";
+  var pawnPos = cellCenter(posizione);
+
+  // keyframe bounce via style tag inline
+  var keyframes = "\n    @keyframes bouncePawn {\n      0%   { transform: translate(-50%,-50%) scale(1); }\n      35%  { transform: translate(-50%,-75%) scale(.94,1.1); }\n      65%  { transform: translate(-50%,-40%) scale(1.06,.93); }\n      100% { transform: translate(-50%,-50%) scale(1); }\n    }\n    @keyframes spinDado {\n      0%   { transform: rotate(0deg) scale(1); }\n      50%  { transform: rotate(180deg) scale(1.3); }\n      100% { transform: rotate(360deg) scale(1); }\n    }\n  ";
+  var cellStyle = function cellStyle(idx) {
+    var lv = LIVELLI[idx];
+    var isCurrent = idx === posizione;
+    var isProssima = idx === prossimaCasella && prossimaCasella !== null;
+    var isPast = idx < posizione;
+    return {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: 1,
+      cursor: "default",
+      background: isCurrent ? "#8C0020" : isProssima ? "#FFF9C4" : isPast ? "#c8e6b8" : BG[lv] || "#FAF3E0",
+      border: "2px solid ".concat(isCurrent ? "#5a0014" : isProssima ? "#F5C400" : BORDER[lv] || "#ccc"),
+      outline: isProssima ? "2px solid #F5C400" : "none",
+      outlineOffset: isProssima ? "-2px" : "0",
+      transition: "background 0.3s, border 0.3s"
+    };
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: FF,
+      marginBottom: "1rem"
+    }
+  }, /*#__PURE__*/React.createElement("style", null, keyframes), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "relative",
+      display: "inline-block"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "grid",
+      gridTemplateColumns: "repeat(7, ".concat(CELL_SZ, "px)"),
+      gridTemplateRows: "repeat(7, ".concat(CELL_SZ, "px)"),
+      gap: CELL_GAP,
+      background: "#0052CC",
+      padding: BOARD_PAD,
+      border: "4px solid #0052CC",
+      boxShadow: "0 10px 32px rgba(0,40,120,.28), 0 3px 8px rgba(0,40,120,.15)"
+    }
+  }, GRID_CELLS.map(function (_ref16) {
+    var col = _ref16.col,
+      row = _ref16.row,
+      idx = _ref16.idx;
+    var lv = LIVELLI[idx];
+    var isCurrent = idx === posizione;
+    var isPast = idx < posizione;
+    var isProssima = idx === prossimaCasella && prossimaCasella !== null;
+    return /*#__PURE__*/React.createElement("div", {
+      key: idx,
+      style: _objectSpread({
+        gridColumn: col,
+        gridRow: row
+      }, cellStyle(idx))
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 15,
+        fontWeight: 800,
+        lineHeight: 1,
+        color: isCurrent ? "#fff" : isPast ? BORDER[lv] : BORDER[lv]
+      }
+    }, lv === "start" ? "⛵" : lv === "end" ? "🏛️" : isPast ? "✓" : idx + 1), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 7,
+        fontWeight: 700,
+        letterSpacing: ".04em",
+        textTransform: "uppercase",
+        opacity: .85,
+        color: isCurrent ? "#fff" : BORDER[lv]
+      }
+    }, lv === "start" ? "Start" : lv === "end" ? "Arrivo" : lv === "verde" ? "4 opz." : lv === "arancione" ? "2 opz." : "Libera"));
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: "2/7",
+      gridRow: "2/7",
+      background: "#FAF3E0",
+      border: "3px solid #0052CC",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 16,
+      fontWeight: 800,
+      color: "#8C0020",
+      textAlign: "center",
+      lineHeight: 1.2,
+      fontFamily: FF
+    }
+  }, titolo || "Scuola in Gioco"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 9,
+      color: "#0052CC",
+      fontWeight: 700,
+      letterSpacing: ".1em",
+      textTransform: "uppercase"
+    }
+  }, "Storia \xB7 Classe 4\xAA"), mostraRisultato ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 32,
+      lineHeight: 1
+    }
+  }, ["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"][(dadoValore || 1) - 1]), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      fontWeight: 700,
+      color: "#8C0020",
+      marginTop: 4
+    }
+  }, "Hai fatto ", dadoValore, "!")) : /*#__PURE__*/React.createElement("button", {
+    onClick: tiraDado,
+    disabled: animaDado || mostraDomanda,
+    style: {
+      background: "#8C0020",
+      color: "#F5EDD6",
+      border: "none",
+      padding: "8px 16px",
+      borderRadius: 8,
+      fontSize: 12,
+      fontWeight: 800,
+      fontFamily: FF,
+      cursor: animaDado || mostraDomanda ? "default" : "pointer",
+      boxShadow: "0 4px 10px rgba(140,0,32,.35)",
+      display: "flex",
+      alignItems: "center",
+      gap: 6,
+      opacity: mostraDomanda ? 0.4 : 1
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 22,
+      animation: animaDado ? "spinDado .5s ease-in-out" : "none"
+    }
+  }, dadoValore ? ["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"][dadoValore - 1] : "🎲"), animaDado ? "..." : dadoValore ? "Tira ancora" : "Tira il dado"))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "absolute",
+      left: pawnPos.x,
+      top: pawnPos.y,
+      transform: "translate(-50%, -50%)",
+      pointerEvents: "none",
+      zIndex: 10,
+      transition: "left 0.28s cubic-bezier(.4,0,.2,1), top 0.28s cubic-bezier(.4,0,.2,1)",
+      animation: posizione > 0 ? "bouncePawn 0.28s ease-in-out" : "none"
+    }
+  }, /*#__PURE__*/React.createElement(Birillo, null))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 12,
+      marginTop: 10,
+      justifyContent: "center"
+    }
+  }, [["#3B6D11", "#D4EDBA", "4 opzioni"], ["#C17A2A", "#FDE9C0", "2 opzioni"], ["#A32D2D", "#FCCFCF", "Risposta libera"]].map(function (_ref17) {
+    var _ref18 = _slicedToArray(_ref17, 3),
+      col = _ref18[0],
+      bg = _ref18[1],
+      label = _ref18[2];
+    return /*#__PURE__*/React.createElement("div", {
+      key: label,
+      style: {
+        display: "flex",
+        alignItems: "center",
+        gap: 5,
+        fontSize: 10,
+        fontWeight: 700,
+        color: col
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        width: 10,
+        height: 10,
+        background: bg,
+        border: "1.5px solid ".concat(col)
+      }
+    }), label);
+  })));
+}
+function GiocoTabellone(_ref19) {
+  var _ref19$testo = _ref19.testo,
+    testo = _ref19$testo === void 0 ? "" : _ref19$testo,
+    onEsci = _ref19.onEsci;
+  var _useState107 = useState("intro"),
+    _useState108 = _slicedToArray(_useState107, 2),
+    fase = _useState108[0],
+    setFase = _useState108[1];
+  var _useState109 = useState([]),
+    _useState110 = _slicedToArray(_useState109, 2),
+    domande = _useState110[0],
+    setDomande = _useState110[1];
+  var _useState111 = useState(0),
+    _useState112 = _slicedToArray(_useState111, 2),
+    domIdx = _useState112[0],
+    setDomIdx = _useState112[1];
+  var _useState113 = useState(0),
+    _useState114 = _slicedToArray(_useState113, 2),
+    posizione = _useState114[0],
+    setPosizione = _useState114[1];
+  var _useState115 = useState(null),
+    _useState116 = _slicedToArray(_useState115, 2),
+    prossimaCasella = _useState116[0],
+    setProssimaCasella = _useState116[1];
+  var _useState117 = useState(false),
+    _useState118 = _slicedToArray(_useState117, 2),
+    loading = _useState118[0],
+    setLoading = _useState118[1];
+  var _useState119 = useState(null),
+    _useState120 = _slicedToArray(_useState119, 2),
+    errore = _useState120[0],
+    setErrore = _useState120[1];
+  var _useState121 = useState(null),
+    _useState122 = _slicedToArray(_useState121, 2),
+    statoRisp = _useState122[0],
+    setStatoRisp = _useState122[1];
+  var _useState123 = useState(null),
+    _useState124 = _slicedToArray(_useState123, 2),
+    scelta = _useState124[0],
+    setScelta = _useState124[1];
+  var _useState125 = useState(""),
+    _useState126 = _slicedToArray(_useState125, 2),
+    testoLibero = _useState126[0],
+    setTestoLibero = _useState126[1];
+  var _useState127 = useState(false),
+    _useState128 = _slicedToArray(_useState127, 2),
+    mostraDomanda = _useState128[0],
+    setMostraDomanda = _useState128[1];
+  var _useState129 = useState(0),
+    _useState130 = _slicedToArray(_useState129, 2),
+    lettereMostrate = _useState130[0],
+    setLettereMostrate = _useState130[1];
+  var _useState131 = useState(0),
+    _useState132 = _slicedToArray(_useState131, 2),
+    fermi = _useState132[0],
+    setFermi = _useState132[1]; // tentativi sbagliati totali
+  var _useState133 = useState(0),
+    _useState134 = _slicedToArray(_useState133, 2),
+    caselleDifficili = _useState134[0],
+    setCaselleDifficili = _useState134[1]; // caselle risolte con aiuto
+  var _useState135 = useState(null),
+    _useState136 = _slicedToArray(_useState135, 2),
+    dadoValore = _useState136[0],
+    setDadoValore = _useState136[1];
+  var _useState137 = useState(false),
+    _useState138 = _slicedToArray(_useState137, 2),
+    animaDado = _useState138[0],
+    setAnimaDado = _useState138[1];
+  var _useState139 = useState(false),
+    _useState140 = _slicedToArray(_useState139, 2),
+    mostraRisultato = _useState140[0],
+    setMostraRisultato = _useState140[1];
+  var avvia = function avvia() {
+    setLoading(true);
+    setErrore(null);
+    generaDomandeTabellone(testo).then(function (d) {
+      setDomande(d);
+      setPosizione(0);
+      setDomIdx(0);
+      setStatoRisp(null);
+      setScelta(null);
+      setTestoLibero("");
+      setMostraDomanda(false);
+      setLettereMostrate(0);
+      setFermi(0);
+      setCaselleDifficili(0);
+      setProssimaCasella(null);
+      setDadoValore(null);
+      setMostraRisultato(false);
+      setFase("gioco");
+      setLoading(false);
+    }).catch(function (e) {
+      setErrore(e.message);
+      setLoading(false);
+    });
+  };
+  var tiraDado = function tiraDado() {
+    if (mostraDomanda || animaDado) return;
+    setAnimaDado(true);
+    setDadoValore(null);
+    var count = 0;
+    var iv = setInterval(function () {
+      setDadoValore(Math.floor(Math.random() * 6) + 1);
+      count++;
+      if (count > 10) {
+        clearInterval(iv);
+        var val = Math.floor(Math.random() * 6) + 1;
+        setDadoValore(val);
+        setAnimaDado(false);
+        setMostraRisultato(true);
+        var nuova = Math.min(posizione + val, CASELLE - 1);
+        setProssimaCasella(nuova);
+        setTimeout(function () {
+          setMostraRisultato(false);
+          setMostraDomanda(true);
+          setStatoRisp(null);
+          setScelta(null);
+          setTestoLibero("");
+          setLettereMostrate(0);
+        }, 2000);
+      }
+    }, 80);
+  };
+  var dom = domande[domIdx % Math.max(domande.length, 1)];
+  var rispondi = function rispondi(risp) {
+    if (statoRisp === "corretta") return;
+    var ok = dom.livello === "rossa" ? risp.trim().toLowerCase() === (dom.risposta || "").trim().toLowerCase() : risp === dom.corretta;
+    if (ok) {
+      setStatoRisp("corretta");
+      setScelta(risp);
+      if (fermi > 0 || lettereMostrate > 0) setCaselleDifficili(function (c) {
+        return c + 1;
+      });
+      setTimeout(function () {
+        setPosizione(prossimaCasella);
+        setMostraDomanda(false);
+        setProssimaCasella(null);
+        setDomIdx(function (i) {
+          return i + 1;
+        });
+        setDadoValore(null);
+        setFermi(0);
+        setLettereMostrate(0);
+        if (prossimaCasella >= CASELLE - 1) setTimeout(function () {
+          return setFase("vinto");
+        }, 400);
+      }, 2000);
+    } else {
+      setStatoRisp("sbagliata");
+      setScelta(risp);
+      setFermi(function (f) {
+        return f + 1;
+      });
+      setLettereMostrate(function (l) {
+        return Math.min(l + 1, (dom.risposta || "").length);
+      });
+      setTimeout(function () {
+        setStatoRisp(null);
+        setScelta(null);
+        setTestoLibero("");
+      }, 1200);
+    }
+  };
+  var wrap = {
+    fontFamily: "system-ui, sans-serif",
+    maxWidth: 500,
+    margin: "0 auto",
+    padding: "1.5rem 1rem"
+  };
+  if (fase === "intro") return /*#__PURE__*/React.createElement("div", {
+    style: wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 11,
+      fontWeight: 500,
+      color: "#aaa",
+      letterSpacing: "0.07em",
+      textTransform: "uppercase",
+      marginBottom: 4
+    }
+  }, "Storia \xB7 I Fenici"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 22,
+      fontWeight: 500,
+      marginBottom: 8
+    }
+  }, "Tabellone"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "#666",
+      marginBottom: "1.5rem",
+      lineHeight: 1.6
+    }
+  }, "Tira il dado e avanza sul tabellone. Ogni casella ha una domanda: rispondi correttamente per guadagnare il posto. Arrivi in fondo e hai vinto."), errore && /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "10px 14px",
+      borderRadius: 8,
+      marginBottom: "1rem",
+      background: "#FCEBEB",
+      fontSize: 13,
+      color: "#B71C1C"
+    }
+  }, "Errore: ", errore), loading ? /*#__PURE__*/React.createElement(Loader, null) : /*#__PURE__*/React.createElement("button", {
+    onClick: avvia,
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer"
+    }
+  }, errore ? "Riprova" : "Inizia a giocare"));
+  if (fase === "vinto") return /*#__PURE__*/React.createElement("div", {
+    style: wrap
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 26,
+      fontWeight: 500,
+      marginBottom: 8
+    }
+  }, "\uD83C\uDFDB\uFE0F Hai vinto!"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1.5rem",
+      border: "0.5px solid #ddd",
+      borderRadius: 12,
+      marginBottom: "1.5rem"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-around",
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 36,
+      fontWeight: 500,
+      color: "#2D6BE4"
+    }
+  }, CASELLE), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      color: "#aaa",
+      marginTop: 2
+    }
+  }, "caselle")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 36,
+      fontWeight: 500,
+      color: "#3B6D11"
+    }
+  }, CASELLE - caselleDifficili), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      color: "#aaa",
+      marginTop: 2
+    }
+  }, "al primo colpo")), caselleDifficili > 0 && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 36,
+      fontWeight: 500,
+      color: "#C17A2A"
+    }
+  }, caselleDifficili), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      color: "#aaa",
+      marginTop: 2
+    }
+  }, "con aiuto")))), /*#__PURE__*/React.createElement("button", {
+    onClick: avvia,
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer"
+    }
+  }, "Gioca ancora"), /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      return setFase("intro");
+    },
+    style: {
+      width: "100%",
+      padding: "13px",
+      borderRadius: 10,
+      border: "0.5px solid #ddd",
+      background: "transparent",
+      color: "#666",
+      fontSize: 15,
+      fontWeight: 500,
+      cursor: "pointer",
+      marginTop: 10
+    }
+  }, "Torna all'inizio"));
+  if (fase === "gioco") return /*#__PURE__*/React.createElement("div", {
+    style: _objectSpread(_objectSpread({}, wrap), {}, {
+      maxWidth: 560
+    })
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: "1rem"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 13,
+      fontWeight: 600,
+      color: "#3C2A0E"
+    }
+  }, "Tabellone"), /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 12,
+      color: "#8B6930"
+    }
+  }, "Casella ", posizione + 1, "/", CASELLE, fermi > 0 ? " \xB7 ".concat(fermi, " errori") : "")), /*#__PURE__*/React.createElement(TabelloneBoard, {
+    posizione: posizione,
+    prossimaCasella: mostraDomanda ? prossimaCasella : null,
+    tiraDado: tiraDado,
+    animaDado: animaDado,
+    dadoValore: dadoValore,
+    mostraDomanda: mostraDomanda,
+    mostraRisultato: mostraRisultato
+  }), mostraDomanda && dom && /*#__PURE__*/React.createElement("div", {
+    style: {
+      border: "1.5px solid ".concat(C[dom.livello], "66"),
+      borderRadius: 12,
+      overflow: "hidden",
+      marginTop: 8
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "8px 14px",
+      background: BG[dom.livello] || "#f5f5f5",
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 11,
+      fontWeight: 700,
+      color: C[dom.livello],
+      textTransform: "uppercase",
+      letterSpacing: "0.05em"
+    }
+  }, dom.livello === "verde" ? "● 4 opzioni" : dom.livello === "arancione" ? "● 2 opzioni" : "● Risposta libera"), prossimaCasella !== null && /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 11,
+      color: "#aaa"
+    }
+  }, "\u2192 casella ", prossimaCasella + 1)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "1rem 14px"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 15,
+      fontWeight: 500,
+      lineHeight: 1.5,
+      marginBottom: "1rem"
+    }
+  }, dom.domanda), (dom.livello === "verde" || dom.livello === "arancione") && /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8
+    }
+  }, (dom.opzioni || []).map(function (op, i) {
+    var l = ["A", "B", "C", "D"][i];
+    var txt = op.includes(": ") ? op.split(": ").slice(1).join(": ") : op;
+    var isC = statoRisp === "corretta" && scelta === l;
+    var isS = statoRisp === "sbagliata" && scelta === l;
+    return /*#__PURE__*/React.createElement("button", {
+      key: l,
+      onClick: function onClick() {
+        return rispondi(l);
+      },
+      style: {
+        padding: "10px 14px",
+        borderRadius: 8,
+        border: isC ? "1.5px solid ".concat(C[dom.livello]) : isS ? "1.5px solid #B71C1C" : "0.5px solid #ddd",
+        background: isC ? BG[dom.livello] : isS ? "#FFEBEE" : "transparent",
+        color: isC ? C[dom.livello] : isS ? "#B71C1C" : "#333",
+        fontSize: 14,
+        cursor: statoRisp === "corretta" ? "default" : "pointer",
+        textAlign: "left",
+        display: "flex",
+        gap: 10,
+        lineHeight: 1.4
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontWeight: 600,
+        flexShrink: 0,
+        width: 18
+      }
+    }, l), /*#__PURE__*/React.createElement("span", null, txt));
+  })), dom.livello === "rossa" && /*#__PURE__*/React.createElement("div", null, lettereMostrate > 0 && /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "6px 10px",
+      borderRadius: 6,
+      background: "#FFF8E1",
+      border: "0.5px solid #C17A2A44",
+      fontSize: 13,
+      color: "#C17A2A",
+      marginBottom: 8,
+      letterSpacing: 4,
+      fontWeight: 500
+    }
+  }, (dom.risposta || "").split("").map(function (l, i) {
+    return i < lettereMostrate ? l : "＿";
+  }).join(" ")), statoRisp === "corretta" ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "12px 14px",
+      borderRadius: 8,
+      background: "#EAF3DE",
+      border: "1.5px solid #3B6D11",
+      fontSize: 14,
+      color: "#3B6D11",
+      fontWeight: 500
+    }
+  }, "\u2713 Esatto! La risposta \xE8 ", /*#__PURE__*/React.createElement("strong", null, dom.risposta)) : /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 8
+    }
+  }, /*#__PURE__*/React.createElement("input", {
+    value: testoLibero,
+    onChange: function onChange(e) {
+      return setTestoLibero(e.target.value);
+    },
+    onKeyDown: function onKeyDown(e) {
+      if (e.key === "Enter" && testoLibero.trim()) rispondi(testoLibero);
+    },
+    placeholder: "Scrivi la risposta...",
+    style: {
+      flex: 1,
+      padding: "10px 12px",
+      borderRadius: 8,
+      border: statoRisp === "sbagliata" ? "1.5px solid #B71C1C" : "0.5px solid #ddd",
+      fontSize: 14,
+      outline: "none",
+      background: statoRisp === "sbagliata" ? "#FFEBEE" : "#fff"
+    },
+    autoFocus: true
+  }), /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      if (testoLibero.trim()) rispondi(testoLibero);
+    },
+    style: {
+      padding: "10px 16px",
+      borderRadius: 8,
+      border: "none",
+      background: "#2D6BE4",
+      color: "#fff",
+      fontSize: 14,
+      fontWeight: 500,
+      cursor: "pointer"
+    }
+  }, "OK")), statoRisp === "sbagliata" && /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginTop: 8
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 13,
+      color: "#B71C1C"
+    }
+  }, "Non \xE8 corretto. Riprova!"), /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      return setLettereMostrate(function (l) {
+        return Math.min(l + 1, (dom.risposta || "").length);
+      });
+    },
+    style: {
+      fontSize: 12,
+      color: "#C17A2A",
+      background: "none",
+      border: "none",
+      cursor: "pointer",
+      textDecoration: "underline"
+    }
+  }, "Mostra una lettera"))))));
+  return null;
+}
+
+// ---- PIATTAFORMA PRINCIPALE ----
+
+var CAP_EMOJI = {
+  fenici: "⛵",
+  cina: "🐉",
+  maya: "☀️",
+  vallindi: "🐘"
+};
+var FMT_EMOJI = {
+  vero_falso: "✅",
+  multipla: "🔤",
+  abbinamenti: "🔗",
+  timeline: "📅",
+  completamento: "✏️",
+  anagrammi: "🔀",
+  tabellone: "🎲"
+};
+function App() {
+  var _useState141 = useState("home"),
+    _useState142 = _slicedToArray(_useState141, 2),
+    schermata = _useState142[0],
+    setSchermata = _useState142[1];
+  var _useState143 = useState(null),
+    _useState144 = _slicedToArray(_useState143, 2),
+    capSel = _useState144[0],
+    setCapSel = _useState144[1];
+  var _useState145 = useState(null),
+    _useState146 = _slicedToArray(_useState145, 2),
+    fmtSel = _useState146[0],
+    setFmtSel = _useState146[1];
+  var _useState147 = useState([]),
+    _useState148 = _slicedToArray(_useState147, 2),
+    cronologia = _useState148[0],
+    setCronologia = _useState148[1];
+  var _useState149 = useState([]),
+    _useState150 = _slicedToArray(_useState149, 2),
+    capSelezionati = _useState150[0],
+    setCapSelezionati = _useState150[1];
+  var _useState151 = useState(function () {
+      return typeof window !== "undefined" && window.innerWidth < 768;
+    }),
+    _useState152 = _slicedToArray(_useState151, 2),
+    isMobile = _useState152[0],
+    setIsMobile = _useState152[1];
+  var materia = MATERIE[0];
+  var FF = "'Bricolage Grotesque', system-ui, sans-serif";
+  useEffect(function () {
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&display=swap";
+    document.head.appendChild(link);
+    var onResize = function onResize() {
+      return setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener("resize", onResize);
+    return function () {
+      return window.removeEventListener("resize", onResize);
+    };
+  }, []);
+  var capSelCurrent = capSelezionati.length > 0 ? {
+    id: "multi",
+    label: capSelezionati.length === 1 ? capSelezionati[0].label : capSelezionati.map(function (c) {
+      return c.label;
+    }).join(" + "),
+    testo: capSelezionati.map(function (c) {
+      return c.testo;
+    }).join("\n\n")
+  } : null;
+  var toggleCap = function toggleCap(cap) {
+    if (capSelezionati.some(function (c) {
+      return c.id === cap.id;
+    })) setCapSelezionati(capSelezionati.filter(function (c) {
+      return c.id !== cap.id;
+    }));else setCapSelezionati([].concat(_toConsumableArray(capSelezionati), [cap]));
+    setFmtSel(null);
+    setCapSel(null);
+  };
+  var apriCronologia = /*#__PURE__*/function () {
+    var _ref20 = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee() {
+      var r, _t;
+      return _regenerator().w(function (_context) {
+        while (1) switch (_context.p = _context.n) {
+          case 0:
+            _context.p = 0;
+            _context.n = 1;
+            return Promise.resolve({
+              value: localStorage.getItem("sig_risultati")
+            });
+          case 1:
+            r = _context.v;
+            if (r) setCronologia(JSON.parse(r.value));else setCronologia([]);
+            _context.n = 3;
+            break;
+          case 2:
+            _context.p = 2;
+            _t = _context.v;
+            setCronologia([]);
+          case 3:
+            setSchermata("cronologia");
+          case 4:
+            return _context.a(2);
+        }
+      }, _callee, null, [[0, 2]]);
+    }));
+    return function apriCronologia() {
+      return _ref20.apply(this, arguments);
+    };
+  }();
+  var texStyle = {
+    backgroundImage: "linear-gradient(#C8A84B22 1px, transparent 1px), linear-gradient(90deg, #C8A84B22 1px, transparent 1px)",
+    backgroundSize: "24px 24px",
+    backgroundColor: "#F0E6CC"
+  };
+  var sidebarContent = materia.unita.map(function (u) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: u.label,
+      style: {
+        marginBottom: 18
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 10,
+        fontWeight: 800,
+        color: "#8B6914",
+        letterSpacing: ".1em",
+        textTransform: "uppercase",
+        marginBottom: 10,
+        display: "flex",
+        alignItems: "center",
+        gap: 6,
+        fontFamily: FF
+      }
+    }, u.label, /*#__PURE__*/React.createElement("div", {
+      style: {
+        flex: 1,
+        height: 1,
+        background: "#F5C400",
+        opacity: .7
+      }
+    })), u.capitoli.map(function (cap) {
+      var sel = capSelezionati.some(function (c) {
+        return c.id === cap.id;
+      });
+      return /*#__PURE__*/React.createElement("div", {
+        key: cap.id,
+        onClick: function onClick() {
+          return toggleCap(cap);
+        },
+        style: {
+          display: "flex",
+          alignItems: "center",
+          gap: 10,
+          padding: "10px 12px",
+          borderRadius: 10,
+          border: "".concat(sel ? 2 : 1.5, "px solid ").concat(sel ? "#8C0020" : "#D4C89A"),
+          background: sel ? "#8C0020" : "#FAF3E0",
+          marginBottom: 7,
+          cursor: "pointer"
+        }
+      }, /*#__PURE__*/React.createElement("span", {
+        style: {
+          fontSize: 17
+        }
+      }, CAP_EMOJI[cap.id] || "📖"), /*#__PURE__*/React.createElement("span", {
+        style: {
+          fontSize: 13,
+          color: sel ? "#F5EDD6" : "#3C2A0E",
+          fontWeight: 600,
+          flex: 1,
+          fontFamily: FF
+        }
+      }, cap.label), /*#__PURE__*/React.createElement("div", {
+        style: {
+          width: 20,
+          height: 20,
+          borderRadius: 5,
+          background: sel ? "#0052CC" : "transparent",
+          border: "2px solid ".concat(sel ? "#0052CC" : "#D4C89A"),
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: 12,
+          fontWeight: 900,
+          color: "#fff",
+          flexShrink: 0
+        }
+      }, sel ? "✓" : ""));
+    }));
+  });
+  var chipsContent = materia.unita.flatMap(function (u) {
+    return u.capitoli;
+  }).map(function (cap) {
+    var sel = capSelezionati.some(function (c) {
+      return c.id === cap.id;
+    });
+    return /*#__PURE__*/React.createElement("div", {
+      key: cap.id,
+      onClick: function onClick() {
+        return toggleCap(cap);
+      },
+      style: {
+        display: "inline-flex",
+        alignItems: "center",
+        gap: 6,
+        padding: "8px 14px",
+        borderRadius: 20,
+        border: "1.5px solid ".concat(sel ? "#8C0020" : "#D4C89A"),
+        background: sel ? "#8C0020" : "#FAF3E0",
+        fontSize: 13,
+        fontWeight: 600,
+        color: sel ? "#F5EDD6" : "#3C2A0E",
+        cursor: "pointer",
+        flexShrink: 0,
+        fontFamily: FF
+      }
+    }, /*#__PURE__*/React.createElement("span", null, CAP_EMOJI[cap.id] || "📖"), cap.label);
+  });
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      minHeight: "100vh",
+      fontFamily: FF,
+      background: "#F0E6CC",
+      color: "#3C2A0E"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      background: "#8C0020",
+      padding: "14px 24px",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      flexShrink: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 22
+    }
+  }, "\uD83C\uDFDB\uFE0F"), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 20,
+      fontWeight: 800,
+      color: "#F5EDD6",
+      fontFamily: FF
+    }
+  }, "Storia"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      color: "#D4909A",
+      fontWeight: 500
+    }
+  }, "Classe 4\xAA"))), /*#__PURE__*/React.createElement("button", {
+    onClick: schermata === "cronologia" ? function () {
+      return setSchermata("home");
+    } : apriCronologia,
+    style: {
+      background: "none",
+      border: "none",
+      cursor: "pointer",
+      fontSize: 13,
+      color: "#D4909A",
+      fontWeight: 600,
+      fontFamily: FF
+    }
+  }, schermata === "cronologia" ? "‹ Torna" : "🏆 Le mie partite ›")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 3,
+      background: "#F5C400",
+      flexShrink: 0
+    }
+  }), schermata === "cronologia" && /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1,
+      padding: 24,
+      maxWidth: 560,
+      margin: "0 auto",
+      width: "100%"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 22,
+      fontWeight: 700,
+      marginBottom: "1.5rem",
+      fontFamily: FF
+    }
+  }, "Le mie partite"), cronologia.length === 0 ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      color: "#8B6930",
+      padding: "2rem 0",
+      textAlign: "center"
+    }
+  }, "Nessuna partita ancora.") : /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8
+    }
+  }, cronologia.map(function (r, i) {
+    var pct = Math.round(r.corrette / r.totale * 100);
+    var col = pct >= 80 ? "#3B6D11" : pct >= 50 ? "#854F0B" : "#A32D2D";
+    var bg = pct >= 80 ? "#EAF3DE" : pct >= 50 ? "#FFF8E6" : "#FCEBEB";
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      style: {
+        padding: "12px 14px",
+        border: "1.5px solid #D4C89A",
+        borderRadius: 10,
+        background: "#FAF3E0",
+        display: "flex",
+        alignItems: "center",
+        gap: 12
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        flex: 1
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 14,
+        fontWeight: 600,
+        fontFamily: FF
+      }
+    }, r.capitolo), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 12,
+        color: "#8B6930",
+        marginTop: 2
+      }
+    }, r.formato, " \xB7 ", r.data)), /*#__PURE__*/React.createElement("div", {
+      style: {
+        padding: "4px 12px",
+        borderRadius: 20,
+        background: bg,
+        color: col,
+        fontSize: 13,
+        fontWeight: 600
+      }
+    }, r.corrette, "/", r.totale));
+  }))), schermata === "home" && /*#__PURE__*/React.createElement(React.Fragment, null, isMobile && /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      padding: "12px 16px",
+      background: "#E8D9B8",
+      borderBottom: "1.5px solid #D4C89A",
+      overflowX: "auto",
+      gap: 8,
+      flexShrink: 0,
+      WebkitOverflowScrolling: "touch"
+    }
+  }, chipsContent), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flex: 1,
+      overflow: "hidden",
+      minHeight: 0
+    }
+  }, !isMobile && /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: 230,
+      background: "#E8D9B8",
+      padding: "20px 16px",
+      borderRight: "1.5px solid #D4C89A",
+      overflowY: "auto",
+      flexShrink: 0
+    }
+  }, sidebarContent), /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1,
+      overflowY: "auto"
+    }
+  }, !fmtSel ? capSelCurrent ? /*#__PURE__*/React.createElement("div", {
+    style: _objectSpread(_objectSpread({
+      padding: 24
+    }, texStyle), {}, {
+      minHeight: "100%"
+    })
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 22,
+      fontWeight: 800,
+      marginBottom: 4,
+      fontFamily: FF
+    }
+  }, "Come vuoi studiare?"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      color: "#8B6930",
+      marginBottom: 16
+    }
+  }, capSelCurrent.label, " \xB7 Le domande cambiano ogni volta"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: 10
+    }
+  }, FORMATI.map(function (f) {
+    return /*#__PURE__*/React.createElement("div", {
+      key: f.id,
+      onClick: function onClick() {
+        setCapSel(capSelCurrent);
+        setFmtSel(f);
+      },
+      style: {
+        background: "#FAF3E0",
+        border: "1.5px solid #D4C89A",
+        borderRadius: 12,
+        padding: 14,
+        cursor: "pointer",
+        display: "flex",
+        flexDirection: "column",
+        gap: 6,
+        boxShadow: "0 4px 12px rgba(80,50,10,.15),0 1px 3px rgba(80,50,10,.08)"
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontSize: 22
+      }
+    }, FMT_EMOJI[f.id]), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 14,
+        fontWeight: 700,
+        color: "#3C2A0E",
+        fontFamily: FF
+      }
+    }, f.label), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 11,
+        color: "#8B6930",
+        lineHeight: 1.4
+      }
+    }, f.desc));
+  }))) : /*#__PURE__*/React.createElement("div", {
+    style: _objectSpread({
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      minHeight: "60vh",
+      textAlign: "center",
+      padding: "2rem",
+      color: "#8B6930"
+    }, texStyle)
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 48,
+      marginBottom: 16
+    }
+  }, "\uD83C\uDFDB\uFE0F"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 18,
+      fontWeight: 700,
+      color: "#3C2A0E",
+      marginBottom: 8,
+      fontFamily: FF
+    }
+  }, "Scegli cosa studiare"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 14,
+      lineHeight: 1.6
+    }
+  }, isMobile ? "Tocca un capitolo in alto per iniziare." : "Seleziona uno o più capitoli dalla lista.")) : /*#__PURE__*/React.createElement("div", {
+    style: _objectSpread(_objectSpread({
+      padding: 24
+    }, texStyle), {}, {
+      minHeight: "100%"
+    })
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      maxWidth: 520,
+      margin: "0 auto"
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    onClick: function onClick() {
+      setFmtSel(null);
+    },
+    style: {
+      background: "none",
+      border: "none",
+      cursor: "pointer",
+      fontSize: 13,
+      color: "#8B6930",
+      padding: 0,
+      marginBottom: "1.25rem",
+      fontFamily: FF
+    }
+  }, "\u2039 ", capSel === null || capSel === void 0 ? void 0 : capSel.label), (fmtSel === null || fmtSel === void 0 ? void 0 : fmtSel.id) === "vero_falso" && /*#__PURE__*/React.createElement(GiocoVeroFalso, {
+    testo: capSel.testo,
+    onEsci: function onEsci() {
+      return setFmtSel(null);
+    }
+  }), (fmtSel === null || fmtSel === void 0 ? void 0 : fmtSel.id) === "multipla" && /*#__PURE__*/React.createElement(GiocoMultipla, {
+    testo: capSel.testo,
+    onEsci: function onEsci() {
+      return setFmtSel(null);
+    }
+  }), (fmtSel === null || fmtSel === void 0 ? void 0 : fmtSel.id) === "abbinamenti" && /*#__PURE__*/React.createElement(GiocoAbbinamenti, {
+    testo: capSel.testo,
+    onEsci: function onEsci() {
+      return setFmtSel(null);
+    }
+  }), (fmtSel === null || fmtSel === void 0 ? void 0 : fmtSel.id) === "timeline" && /*#__PURE__*/React.createElement(GiocoTimeline, {
+    testo: capSel.testo,
+    onEsci: function onEsci() {
+      return setFmtSel(null);
+    }
+  }), (fmtSel === null || fmtSel === void 0 ? void 0 : fmtSel.id) === "completamento" && /*#__PURE__*/React.createElement(GiocoCompletamento, {
+    testo: capSel.testo,
+    onEsci: function onEsci() {
+      return setFmtSel(null);
+    }
+  }), (fmtSel === null || fmtSel === void 0 ? void 0 : fmtSel.id) === "anagrammi" && /*#__PURE__*/React.createElement(GiocoAnagrammi, {
+    testo: capSel.testo,
+    onEsci: function onEsci() {
+      return setFmtSel(null);
+    }
+  }), (fmtSel === null || fmtSel === void 0 ? void 0 : fmtSel.id) === "tabellone" && /*#__PURE__*/React.createElement(GiocoTabellone, {
+    testo: capSel.testo,
+    onEsci: function onEsci() {
+      return setFmtSel(null);
+    }
+  })))))));
+}
+ReactDOM.render(React.createElement(App), document.getElementById("root"));
+
+</script>
+</body>
+</html>
