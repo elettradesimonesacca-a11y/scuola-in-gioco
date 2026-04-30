@@ -1,8 +1,18 @@
 const https = require("https");
 
+const CORS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Content-Type": "application/json",
+};
+
 exports.handler = async function(event) {
+  if (event.httpMethod === "OPTIONS") {
+    return { statusCode: 200, headers: CORS, body: "" };
+  }
   if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: "Method Not Allowed" };
+    return { statusCode: 405, headers: CORS, body: "Method Not Allowed" };
   }
 
   try {
@@ -28,7 +38,7 @@ exports.handler = async function(event) {
         res.on("end", () => {
           resolve({
             statusCode: res.statusCode,
-            headers: { "Content-Type": "application/json" },
+            headers: CORS,
             body: data,
           });
         });
@@ -43,6 +53,7 @@ exports.handler = async function(event) {
   } catch (err) {
     return {
       statusCode: 500,
+      headers: CORS,
       body: JSON.stringify({ error: { message: err.message } }),
     };
   }
